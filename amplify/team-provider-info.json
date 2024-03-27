@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cricfanapp-staging-191906-authRole",
+      "UnauthRoleArn": "arn:aws:iam::419270912185:role/amplify-cricfanapp-staging-191906-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::419270912185:role/amplify-cricfanapp-staging-191906-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cricfanapp-staging-191906-deployment",
+      "UnauthRoleName": "amplify-cricfanapp-staging-191906-unauthRole",
+      "StackName": "amplify-cricfanapp-staging-191906",
+      "StackId": "arn:aws:cloudformation:us-east-1:419270912185:stack/amplify-cricfanapp-staging-191906/e1346890-ec6e-11ee-9206-0e8661afd319",
+      "AmplifyAppId": "d39g29l2fhp2b9"
+    },
+    "categories": {
+      "auth": {
+        "cricfanappff403431": {}
+      }
+    }
+  }
+}
