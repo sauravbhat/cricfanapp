@@ -1,0 +1,1273 @@
+{
+"Teams": [
+    {
+
+"ID": "86332",
+"Prns": [
+  {
+    "Pid": "3516",
+    "Fn": "Rohit",
+    "Ln": "Sharma",
+    "Snm": "Rohit Sharma",
+    "Specialization":"Batter",
+    "teamDesignation":"",
+    "isoverseas":false,
+    "nationality":"India"
+  },
+  {
+    "Pid": "8234",
+    "Fn": "Ishan",
+    "Ln": "Kishan",
+    "Snm": "Ishan Kishan",
+    "Specialization":"Wicketkeeper",
+    "teamDesignation":"",
+    "isoverseas":false,
+    "nationality":"India"
+  },
+  {
+    "Pid": "13675",
+    "Fn": "Naman",
+    "Ln": "Dhir",
+    "Snm": "Naman Dhir",
+    "Specialization":"AllRounder",
+    "teamDesignation":"",
+    "isoverseas":false,
+    "nationality":"India"
+  },
+  {
+    "Pid": "12691",
+    "Fn": "Namboori",
+    "Ln": "Varma",
+    "Snm": "Tilak Varma",
+    "Specialization":"Batter",
+    "teamDesignation":"",
+    "isoverseas":false,
+    "nationality":"India"
+  },
+  {
+    "Pid": "7780",
+    "Fn": "Hardik",
+    "Ln": "Pandya",
+    "Snm": "Hardik Pandya",
+    "Specialization":"AllRounder",
+    "teamDesignation":"captain",
+    "isoverseas":false,
+    "nationality":"India"
+  },
+  {
+    "Pid": "11463",
+    "Fn": "Timothy",
+    "Ln": "David",
+    "Snm": "Tim David",
+    "Specialization":"Batter",
+    "teamDesignation":"",
+    "isoverseas":true,
+    "nationality":"Singapore"
+  },
+  {
+    "Pid": "11439",
+    "Fn": "Gerald",
+    "Ln": "Coetzee",
+    "Snm": "Gerald Coetzee",
+    "Specialization":"AllRounder",
+    "teamDesignation":"",
+    "isoverseas":true,
+    "nationality":"South Africa"
+  },
+  {
+    "Pid": "3351",
+    "Fn": "Piyush",
+    "Ln": "Chawla",
+    "Snm": "Piyush Chawla",
+    "Specialization":"",
+    "teamDesignation":"",
+    "isoverseas":false,
+    "nationality":"India"
+  },
+  {
+    "Pid": "13849",
+    "Fn": "Akash",
+    "Ln": "Madhwal",
+    "Snm": "Akash Madhwal",
+    "Specialization":"",
+    "teamDesignation":"",
+    "isoverseas":false,
+    "nationality":"India"
+  },
+  {
+    "Pid": "6684",
+    "Fn": "Jasprit",
+    "Ln": "Bumrah",
+    "Snm": "Jasprit Bumrah",
+    "Specialization":"Bowler",
+    "teamDesignation":"",
+    "isoverseas":false,
+    "nationality":"India"
+  },
+  {
+    "Pid": "15171",
+    "Fn": "Kwena",
+    "Ln": "Maphaka",
+    "Snm": "Kwena Maphaka",
+    "Specialization":"Bowler",
+    "teamDesignation":"",
+    "isoverseas":true,
+    "nationality":"South Africa"
+  },
+  {
+    "Pid": "14524",
+    "Fn": "Dewald",
+    "Ln": "Brevis",
+    "Snm": "Dewald Brevis",
+    "Specialization":"Batter",
+    "teamDesignation":"",
+    "isoverseas":true,
+    "nationality":"South Africa"
+  }
+]
+},
+{
+
+  "ID": "86334",
+  "Prns": [
+
+    {
+      "Pid": "12690",
+      "Fn": "Yashasvi",
+      "Ln": "Jaiswal",
+      "Snm": "Yashasvi Jaiswal",
+      "Specialization":"Batter",
+      "teamDesignation":"",
+      "isoverseas":false,
+      "nationality":"India"
+    },
+    {
+      "Pid": "4456",
+      "Fn": "Joseph",
+      "Ln": "Buttler",
+      "Snm": "Jos Buttler",
+      "Specialization":"Batter",
+      "teamDesignation":"",
+      "isoverseas":true,
+      "nationality":"England"
+    },
+    {
+      "Pid": "5335",
+      "Fn": "Sanju",
+      "Ln": "Samson",
+      "Snm": "Sanju Samson",
+      "Specialization":"Wicketkeeper",
+      "teamDesignation":"captain",
+      "isoverseas":false,
+      "nationality":"India"
+    },
+    {
+      "Pid": "11313",
+      "Fn": "Riyan",
+      "Ln": "Das",
+      "Snm": "Riyan Parag",
+      "Specialization":"Batter",
+      "teamDesignation":"",
+      "isoverseas":false,
+      "nationality":"India"
+    },
+    {
+      "Pid": "12694",
+      "Fn": "Dhruv",
+      "Ln": "Jurel",
+      "Snm": "Dhruv Jurel",
+      "Specialization":"Batter",
+      "teamDesignation":"",
+      "isoverseas":false,
+      "nationality":"India"
+    },
+    {
+      "Pid": "7195",
+      "Fn": "Shimron",
+      "Ln": "Hetmyer",
+      "Snm": "Shimron Hetmyer",
+      "Specialization":"",
+      "teamDesignation":"",
+      "isoverseas":true,
+      "nationality":"West Indies"
+    },
+    {
+      "Pid": "3795",
+      "Fn": "Ravichandran",
+      "Ln": "Ashwin",
+      "Snm": "Ravichandran Ashwin",
+      "Specialization":"AllRounder",
+      "teamDesignation":"",
+      "isoverseas":false,
+      "nationality":"India"
+    },
+    {
+      "Pid": "4281",
+      "Fn": "Trent",
+      "Ln": "Boult",
+      "Snm": "Trent Boult",
+      "Specialization":"Bowler",
+      "teamDesignation":"",
+      "isoverseas":true,
+      "nationality":"New Zealand"
+    },
+    {
+      "Pid": "7103",
+      "Fn": "Avesh",
+      "Ln": "Khan",
+      "Snm": "Avesh Khan",
+      "Specialization":"Bowler",
+      "teamDesignation":"",
+      "isoverseas":false,
+      "nationality":"India"
+    },
+    {
+      "Pid": "12273",
+      "Fn": "Nandre",
+      "Ln": "Burger",
+      "Snm": "Nandre Burger",
+      "Specialization":"Bowler",
+      "teamDesignation":"",
+      "isoverseas":true,
+      "nationality":"South Africa"
+    },
+    {
+      "Pid": "5085",
+      "Fn": "Yuzvendra",
+      "Ln": "Chahal",
+      "Snm": "Yuzvendra Chahal",
+      "Specialization":"Bowler",
+      "teamDesignation":"",
+      "isoverseas":false,
+      "nationality":"India"
+    },
+    {
+      "Pid": "15136",
+      "Fn": "Shubham",
+      "Ln": "Dubey",
+      "Snm": "Shubham Badriprasad Dubey",
+      "Specialization":"Batter",
+      "teamDesignation":"",
+      "isoverseas":false,
+      "nationality":"India"
+    }
+  ]
+  },
+  {
+
+    "ID": "86337",
+    "Prns": [
+      {
+        "Pid": "12302",
+        "Fn": "Ruturaj",
+        "Ln": "Gaikwad",
+        "Snm": "Ruturaj Gaikwad",
+        "Specialization":"Batter",
+        "teamDesignation":"captain",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "8321",
+        "Fn": "Rachin",
+        "Ln": "Ravindra",
+        "Snm": "Rachin Ravindra",
+        "Specialization":"allRounder",
+        "teamDesignation":"",
+        "isoverseas":true,
+        "nationality":"New Zealand"
+      },
+      {
+        "Pid": "3845",
+        "Fn": "Ajinkya",
+        "Ln": "Rahane",
+        "Snm": "Ajinkya Rahane",
+        "Specialization":"Batter",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "6881",
+        "Fn": "Daryl",
+        "Ln": "Mitchell",
+        "Snm": "Daryl Mitchell",
+        "Specialization":"allRounder",
+        "teamDesignation":"",
+        "isoverseas":true,
+        "nationality":"New Zealand"
+      },
+      {
+        "Pid": "3856",
+        "Fn": "Ravindrasinh",
+        "Ln": "Jadeja",
+        "Snm": "Ravindra Jadeja",
+        "Specialization":"AllRounder",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "12699",
+        "Fn": "Sameer",
+        "Ln": "Rizvi",
+        "Snm": "Sameer Rizvi",
+        "Specialization":"Batter",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "3243",
+        "Fn": "Mahendra",
+        "Ln": "Dhoni",
+        "Snm": "MS Dhoni",
+        "Specialization":"Wicketkeeper",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "5059",
+        "Fn": "Deepak",
+        "Ln": "Chahar",
+        "Snm": "Deepak Chahar",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "14211",
+        "Fn": "Morawakage",
+        "Ln": "Theekshana",
+        "Snm": "Maheesh Theekshana",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":true,
+        "nationality":"Sri Lanka"
+      },
+      {
+        "Pid": "9711",
+        "Fn": "Tushar",
+        "Ln": "Deshpande",
+        "Snm": "Tushar Deshpande",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "6752",
+        "Fn": "Mohammad",
+        "Ln": "Rahman",
+        "Snm": "Mustafizur Rahman",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":true,
+        "nationality":"Bangladesh"
+      },
+      {
+        "Pid": "12293",
+        "Fn": "Shivam",
+        "Ln": "Dube",
+        "Snm": "Shivam Dube",
+        "Specialization":"AllRounder",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      }
+    ]
+    },
+    {
+
+      "ID": "86333",
+      "Prns": [
+       
+        
+        {
+          "Pid": "4063",
+          "Fn": "Francois",
+          "Ln": "du Plessis",
+          "Snm": "Faf du Plessis",
+          "Specialization":"Batter",
+          "teamDesignation":"captain",
+          "isoverseas":true,
+          "nationality":"South Africa"
+        },
+        {
+          "Pid": "3788",
+          "Fn": "Virat",
+          "Ln": "Kohli",
+          "Snm": "Virat Kohli",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "12334",
+          "Fn": "Rajat",
+          "Ln": "Patidar",
+          "Snm": "Rajat Patidar",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "4894",
+          "Fn": "Glenn",
+          "Ln": "Maxwell",
+          "Snm": "Glenn Maxwell",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"Australia"
+        },
+        {
+          "Pid": "10749",
+          "Fn": "Cameron",
+          "Ln": "Green",
+          "Snm": "Cameron Green",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"Australia"
+        },
+        {
+          "Pid": "3210",
+          "Fn": "Dinesh",
+          "Ln": "Karthik",
+          "Snm": "Dinesh Karthik",
+          "Specialization":"Wicketkeeper",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "13280",
+          "Fn": "Anuj",
+          "Ln": "Rawat",
+          "Snm": "Anuj Rawat",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "4412",
+          "Fn": "Karn",
+          "Ln": "Sharma",
+          "Snm": "Karn Sharma",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "7223",
+          "Fn": "Alzarri",
+          "Ln": "Joseph",
+          "Snm": "Alzarri Joseph",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"West Indies"
+        },
+        {
+          "Pid": "8233",
+          "Fn": "Mayank",
+          "Ln": "Dagar",
+          "Snm": "Mayank Dagar",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "11100",
+          "Fn": "Mohammed",
+          "Ln": "Siraj",
+          "Snm": "Mohammed Siraj",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "14451",
+          "Fn": "Yash",
+          "Ln": "Dayal",
+          "Snm": "Yash Dayal",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        }
+      ]
+      },
+      {
+
+        "ID": "86338",
+        "Prns": [
+      
+          {
+            "Pid": "3811",
+            "Fn": "Shikhar",
+            "Ln": "Dhawan",
+            "Snm": "Shikhar Dhawan",
+            "Specialization":"Batter",
+            "teamDesignation":"captain",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "4249",
+            "Fn": "Jonathan",
+            "Ln": "Bairstow",
+            "Snm": "Jonny Bairstow",
+            "Specialization":"Batter",
+            "teamDesignation":"",
+            "isoverseas":true,
+            "nationality":"England"
+          },
+          {
+            "Pid": "7888",
+            "Fn": "Samuel",
+            "Ln": "Curran",
+            "Snm": "Sam Curran",
+            "Specialization":"AllRounder",
+            "teamDesignation":"",
+            "isoverseas":true,
+            "nationality":"England"
+          },
+          {
+            "Pid": "6724",
+            "Fn": "Liam",
+            "Ln": "Livingstone",
+            "Snm": "Liam Livingstone",
+            "Specialization":"Batter",
+            "teamDesignation":"",
+            "isoverseas":true,
+            "nationality":"England"
+          },
+          {
+            "Pid": "9688",
+            "Fn": "Jitesh",
+            "Ln": "Sharma",
+            "Snm": "Jitesh Sharma",
+            "Specialization":"Wicketkeeper",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "12301",
+            "Fn": "Harpreet",
+            "Ln": "Brar",
+            "Snm": "Harpreet Brar",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "5343",
+            "Fn": "Harshal",
+            "Ln": "Patel",
+            "Snm": "Harshal Patel",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "6580",
+            "Fn": "Kagiso",
+            "Ln": "Rabada",
+            "Snm": "Kagiso Rabada",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":true,
+            "nationality":"South Africa"
+          },
+          {
+            "Pid": "11025",
+            "Fn": "Rahul",
+            "Ln": "Chahar",
+            "Snm": "Rahul Chahar",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "11524",
+            "Fn": "Arshdeep",
+            "Ln": "Singh",
+            "Snm": "Arshdeep Singh",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "9714",
+            "Fn": "Shashank",
+            "Ln": "Singh",
+            "Snm": "Shashank Singh",
+            "Specialization":"Batter",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "12296",
+            "Fn": "Prabhsimran",
+            "Ln": "Singh",
+            "Snm": "Prabhsimran Singh",
+            "Specialization":"Batter",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          }
+        ]
+        },
+        {
+
+          "ID": "86336",
+          "Prns": [
+        
+            {
+              "Pid": "4601",
+              "Fn": "Mitchell",
+              "Ln": "Marsh",
+              "Snm": "Mitchell Marsh",
+              "Specialization":"AllRounder",
+              "teamDesignation":"",
+              "isoverseas":true,
+              "nationality":"Australia"
+            },
+            {
+              "Pid": "4275",
+              "Fn": "David",
+              "Ln": "Warner",
+              "Snm": "David Warner",
+              "Specialization":"Batter",
+              "teamDesignation":"",
+              "isoverseas":true,
+              "nationality":"Australia"
+            },
+            {
+              "Pid": "7800",
+              "Fn": "Shai",
+              "Ln": "Hope",
+              "Snm": "Shai Hope",
+              "Specialization":"Wicketkeeper",
+              "teamDesignation":"",
+              "isoverseas":true,
+              "nationality":"West Indies"
+            },
+            {
+              "Pid": "8229",
+              "Fn": "Rishabh",
+              "Ln": "Pant",
+              "Snm": "Rishabh Pant",
+              "Specialization":"Batter",
+              "teamDesignation":"captain",
+              "isoverseas":false,
+              "nationality":"India"
+            },
+            {
+              "Pid": "7105",
+              "Fn": "Ricky",
+              "Ln": "Bhui",
+              "Snm": "Ricky Bhui",
+              "Specialization":"Batter",
+              "teamDesignation":"",
+              "isoverseas":false,
+              "nationality":"India"
+            },
+            {
+              "Pid": "14343",
+              "Fn": "Tristan",
+              "Ln": "Stubbs",
+              "Snm": "Tristan Stubbs",
+              "Specialization":"",
+              "teamDesignation":"",
+              "isoverseas":true,
+              "nationality":"South Africa"
+            },
+            {
+              "Pid": "6626",
+              "Fn": "Akshar",
+              "Ln": "Patel",
+              "Snm": "Axar Patel",
+              "Specialization":"AllRounder",
+              "teamDesignation":"",
+              "isoverseas":false,
+              "nationality":"India"
+            },
+            {
+              "Pid": "14065",
+              "Fn": "Sumit",
+              "Ln": "Kumar",
+              "Snm": "Sumit Kumar",
+              "Specialization":"AllRounder",
+              "teamDesignation":"",
+              "isoverseas":false,
+              "nationality":"India"
+            },
+            {
+              "Pid": "5399",
+              "Fn": "Kuldeep",
+              "Ln": "Yadav",
+              "Snm": "Kuldeep Yadav",
+              "Specialization":"Bowler",
+              "teamDesignation":"",
+              "isoverseas":false,
+              "nationality":"India"
+            },
+            {
+              "Pid": "8239",
+              "Fn": "Khaleel",
+              "Ln": "Ahmed",
+              "Snm": "Khaleel Ahmed",
+              "Specialization":"Bowler",
+              "teamDesignation":"",
+              "isoverseas":true,
+              "nationality":"South Africa"
+            },
+            {
+              "Pid": "3515",
+              "Fn": "Ishant",
+              "Ln": "Sharma",
+              "Snm": "Ishant Sharma",
+              "Specialization":"Bowler",
+              "teamDesignation":"",
+              "isoverseas":false,
+              "nationality":"India"
+            },
+            {
+              "Pid": "15551",
+              "Fn": "Abishek",
+              "Ln": "Porel",
+              "Snm": "Abishek Porel",
+              "Specialization":"Batter",
+              "teamDesignation":"",
+              "isoverseas":false,
+              "nationality":"India"
+            }
+          ]
+          },
+    {
+
+      "ID": "210181",
+      "Prns": [
+    
+        {
+          "Pid": "6698",
+      "Fn": "Kannanur",
+      "Ln": "Rahul",
+      "Snm": "Lokesh Rahul",
+          "Specialization":"Batter",
+          "teamDesignation":"captain",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "5648",
+          "Fn": "Quinton",
+          "Ln": "de Kock",
+          "Snm": "Quinton de Kock",
+          "Specialization":"Wicketkeeper",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"South Africa"
+        },
+        {
+          "Pid": "12292",
+      "Fn": "Devdutt",
+      "Ln": "Padikkal",
+      "Snm": "Devdutt Padikkal",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "13780",
+          "Fn": "Ayush",
+          "Ln": "Badoni",
+          "Snm": "Ayush Badoni",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "5957",
+      "Fn": "Marcus",
+      "Ln": "Stoinis",
+      "Snm": "Marcus Stoinis",
+          "Specialization":"allRounder",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"Australia"
+        },
+        {
+          "Pid": "6763",
+      "Fn": "Nicholas",
+      "Ln": "Pooran",
+      "Snm": "Nicholas Pooran",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"West Indies"
+        },
+        {
+          "Pid": "9686",
+      "Fn": "Krunal",
+      "Ln": "Pandya",
+      "Snm": "Krunal Pandya",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "12696",
+          "Fn": "Ravi",
+          "Ln": "Bishnoi",
+          "Snm": "Ravi Bishnoi",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "11836",
+          "Fn": "Mohsin",
+          "Ln": "Khan",
+          "Snm": "Mohsin Khan",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "8504",
+      "Fn": "Naveen",
+      "Ln": "Murid",
+      "Snm": "Naveen-ul-Haq",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"Afganistan"
+        },
+        {
+          "Pid": "13937",
+          "Fn": "Yash",
+          "Ln": "Thakur",
+          "Snm": "Yash Thakur",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "7106",
+      "Fn": "Deepak",
+      "Ln": "Hooda",
+      "Snm": "Deepak Hooda",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        }
+      ]
+      },
+  {
+
+    "ID": "210180",
+    "Prns": [
+  
+      {
+        "Pid": "11023",
+        "Fn": "Shubman",
+        "Ln": "Gill",
+        "Snm": "Shubman Gill",
+        "Specialization":"Batter",
+        "teamDesignation":"captain",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "3835",
+      "Fn": "Wriddhiman",
+      "Ln": "Saha",
+      "Snm": "Wriddhiman Saha",
+        "Specialization":"Wicketkeeper",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "11606",
+        "Fn": "Azmatullah",
+        "Ln": "Omarzai",
+        "Snm": "Azmatullah Omarzai",
+        "Specialization":"AllRounder",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"Afganistan"
+      },
+      {
+        "Pid": "4804",
+      "Fn": "David",
+      "Ln": "Miller",
+      "Snm": "David Miller",
+        "Specialization":"Batter",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"South Africa"
+      },
+      {
+        "Pid": "6621",
+      "Fn": "Vijay",
+      "Ln": "Shankar",
+      "Snm": "Vijay Shankar",
+        "Specialization":"allRounder",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "7339",
+        "Fn": "Rahul",
+        "Ln": "Tewatia",
+        "Snm": "Rahul Tewatia",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "8141",
+      "Fn": "Rashid",
+      "Ln": "Khan",
+      "Snm": "Rashid Khan",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":true,
+        "nationality":"Afganistan"
+      },
+      {
+        "Pid": "4395",
+        "Fn": "Umeshkumar",
+        "Ln": "Yadav",
+        "Snm": "Umesh Yadav",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "13157",
+        "Fn": "Noor",
+        "Ln": "Lakanwal",
+        "Snm": "Noor Ahmad",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":true,
+        "nationality":"Afganistan"
+      },
+      {
+        "Pid": "5929",
+        "Fn": "Mohit",
+        "Ln": "Sharma",
+        "Snm": "Mohit Sharma",
+        "Specialization":"Bowler",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "11315",
+      "Fn": "Darshan",
+      "Ln": "Nalkande",
+      "Snm": "Darshan Nalkande",
+        "Specialization":"AllRounder",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      },
+      {
+        "Pid": "14572",
+      "Fn": "Bhardwaj",
+      "Ln": "Sudharsan",
+      "Snm": "Sai Sudharsan",
+        "Specialization":"AllRounder",
+        "teamDesignation":"",
+        "isoverseas":false,
+        "nationality":"India"
+      }
+    ]
+    },
+    {
+
+      "ID": "86331",
+      "Prns": [
+    
+        {
+          "Pid": "5063",
+          "Fn": "Mayank",
+          "Ln": "Agarwal",
+          "Snm": "Mayank Agarwal",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "5366",
+          "Fn": "Travis",
+          "Ln": "Head",
+          "Snm": "Travis Head",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"Australia"
+        },
+        {
+          "Pid": "11022",
+      "Fn": "Abhishek",
+      "Ln": "Sharma",
+      "Snm": "Abhishek Sharma",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "7165",
+      "Fn": "Aiden",
+      "Ln": "Markram",
+      "Snm": "Aiden Markram",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"South Africa"
+        },
+        {
+          "Pid": "7620",
+      "Fn": "Heinrich",
+      "Ln": "Klaasen",
+      "Snm": "Heinrich Klaasen",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":true,
+          "nationality":"South Africa"
+        },
+        {
+          "Pid": "13284",
+      "Fn": "Abdul",
+      "Ln": "Farooq",
+      "Snm": "Abdul Samad",
+          "Specialization":"Batter",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "13277",
+          "Fn": "Shahbaz",
+          "Ln": "Ahmed",
+          "Snm": "Shahbaz Ahmed",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "5164",
+          "Fn": "Patrick",
+          "Ln": "Cummins",
+          "Snm": "Pat Cummins",
+          "Specialization":"Bowler",
+          "teamDesignation":"captain",
+          "isoverseas":true,
+          "nationality":"Australia"
+        },
+        {
+          "Pid": "4384",
+          "Fn": "Bhuvneshwar",
+          "Ln": "Kumar",
+          "Snm": "Bhuvneshwar Kumar",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "11075",
+          "Fn": "Mayank",
+          "Ln": "Markande",
+          "Snm": "Mayank Markande",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "4768",
+          "Fn": "Jaydev",
+          "Ln": "Unadkat",
+          "Snm": "Jaydev Unadkat",
+          "Specialization":"Bowler",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        },
+        {
+          "Pid": "8240",
+      "Fn": "Washington",
+      "Ln": "Sundar",
+      "Snm": "Washington Sundar",
+          "Specialization":"AllRounder",
+          "teamDesignation":"",
+          "isoverseas":false,
+          "nationality":"India"
+        }
+      ]
+      },
+      {
+
+        "ID": "86335",
+        "Prns": [
+      
+          {
+            "Pid": "8012",
+      "Fn": "Philip",
+      "Ln": "Salt",
+      "Snm": "Phil Salt",
+            "Specialization":"Batter",
+            "teamDesignation":"",
+            "isoverseas":true,
+            "nationality":"England"
+          },
+          {
+            "Pid": "13642",
+            "Fn": "Venkatesh",
+            "Ln": "Iyer",
+            "Snm": "Venkatesh Iyer",
+            "Specialization":"AllRounder",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "7110",
+            "Fn": "Shreyas",
+            "Ln": "Iyer",
+            "Snm": "Shreyas Iyer",
+            "Specialization":"Batter",
+            "teamDesignation":"captain",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "11102",
+      "Fn": "Rinku",
+      "Ln": "Singh",
+      "Snm": "Rinku Singh",
+            "Specialization":"Batter",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "7686",
+      "Fn": "Nitish",
+      "Ln": "Rana",
+      "Snm": "Nitish Rana",
+            "Specialization":"Batter",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "4913",
+      "Fn": "Andre",
+      "Ln": "Russell",
+      "Snm": "Andre Russell",
+            "Specialization":"AllRounder",
+            "teamDesignation":"",
+            "isoverseas":true,
+            "nationality":"West Indies"
+          },
+          {
+            "Pid": "13671",
+            "Fn": "Ramandeep",
+            "Ln": "Singh",
+            "Snm": "Ramandeep Singh",
+            "Specialization":"AllRounder",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "4956",
+            "Fn": "Sunil",
+            "Ln": "Narine",
+            "Snm": "Sunil Narine",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":true,
+            "nationality":"West Indies"
+          },
+          {
+            "Pid": "4910",
+            "Fn": "Mitchell",
+            "Ln": "Starc",
+            "Snm": "Mitchell Starc",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":true,
+            "nationality":"Australia"
+          },
+          {
+            "Pid": "15728",
+            "Fn": "Harshit",
+            "Ln": "Rana",
+            "Snm": "Harshit Rana",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "12294",
+      "Fn": "Varun",
+      "Ln": "Vinod",
+      "Snm": "Varun Chakravarthy",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          },
+          {
+            "Pid": "16896",
+            "Fn": "Suyash",
+            "Ln": "Sharma",
+            "Snm": "Suyash Sharma",
+            "Specialization":"Bowler",
+            "teamDesignation":"",
+            "isoverseas":false,
+            "nationality":"India"
+          }
+        ]
+        }                            
+]
+}

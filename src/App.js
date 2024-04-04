@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Leaguebar from "./components/Leaguebar"
 import {
     BrowserRouter as Router,
     Routes,
@@ -25,54 +27,52 @@ import Blogs from "./components/pages/blogs";
 import SignUp from "./components/pages/signup";
 
 function App({ signOut }) {
-  const expenses = [
-    {
-      id: 'e1',
-      title: 'Toilet Paper',
-      amount: '92.12',
-      date: new Date(2023, 10, 11),
-    },
-    {
-      id: 'e12',
-      title: 'Towel Paper',
-      amount: '12.12',
-      date: new Date(2023, 10, 11),
-    },
-    {
-      id: 'e13',
-      title: 'face pack ',
-      amount: '100.12',
-      date: new Date(2023, 10, 11),
-    },
-    {
-      id: 'e14',
-      title: 'toothpaste ',
-      amount: '7.10',
-      date: new Date(2023, 10, 16),
-    },
-  ]
+  const [isLoading, setIsLoading] = useState(true);
+  const [league, setLeague] = useState([]);
+  //setIsLoading(true);
+    useEffect(() => {
+      fetch('https://cricfan.s3.amazonaws.com/league.json')
+         .then((response) => response.json())
+         .then((data) => {
+            console.log("data=====" + data);
+            setLeague(data);
+            setIsLoading(false);
+         })
+         .catch((err) => {
+          setIsLoading(false);
+            console.log(err.message);
+         });
+   }, []);
+  
   return (
+
     <View className="App">
 
-  
-    <Router>
-    <Navbar signOut={signOut}/>
-    <Routes>
-        <Route path="/matchcenter" element={<MatchCenter />} />
-        <Route path="/about" element={<About />} />
-        <Route
-            path="/events"
-            element={<Events />}
-        />
-        <Route
-            path="/annual"
-            element={<MatchCenter />}
-        />
-        <Route path="/team" element={<Teams />} />
-        <Route path="/blogs" element={<Blogs />} />
-        
-    </Routes>
-</Router>
+    <div>
+      {isLoading ? "loading" :
+      <Router>
+          <Navbar signOut={signOut}/>
+          <Leaguebar leagueConfig={league}/>
+          
+          <Routes>
+            <Route path="/" element={<MatchCenter />} />
+              <Route path="/matchcenter" element={<MatchCenter />} />
+              <Route path="/about" element={<About />} />
+              <Route
+                  path="/events"
+                  element={<Events />}
+              />
+              <Route
+                  path="/annual"
+                  element={<MatchCenter />}
+              />
+              <Route path="/team" element={<Teams />} />
+              <Route path="/blogs" element={<Blogs />} />
+              
+          </Routes>
+      </Router> }
+    </div>
+    
   </View>
     
 
