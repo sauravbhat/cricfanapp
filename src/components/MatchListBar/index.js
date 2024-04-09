@@ -6,11 +6,11 @@ import {
 	Bars,
 	NavBtn,
 	NavBtnLink,
-} from "./LeaguebarElements";
+} from "./MatchListElements";
 import "@aws-amplify/ui-react/styles.css";
-import Participatingteams from "./Participatingteams"
+import TeamSchedules from "./TeamSchedules";
 
-const Navbar = ({leagueConfig}) => {
+const MatchListBar = ({leagueConfig}) => {
 	console.log("configgg ========= ");
 	console.log(leagueConfig);
 
@@ -33,17 +33,11 @@ const Navbar = ({leagueConfig}) => {
 						<Nav>
 			
 							<Bars />
-							<NavBtn>
-								<NavBtnLink >
-									{Display} 
-								</NavBtnLink>
-							</NavBtn>
 							
-							<div>
 							
-							<Participatingteams scd={scd} ccd={ccd}/>
+							<div>	
+								<TeamSchedules scd={scd} ccd={ccd}/>
 							</div>
-							
 							
 						</Nav>
 					</>
@@ -67,4 +61,4 @@ const Navbar = ({leagueConfig}) => {
 	);}
 };
 
-export default Navbar;
+export default MatchListBar;

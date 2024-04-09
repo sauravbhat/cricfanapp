@@ -7,55 +7,52 @@ import './matchcenter.css';
 import Live from "./Live";
 
 const MatchCenter = () => {
-	const expenses = [
-		{
-		  id: 'e1',
-		  title: 'Toilet Paper',
-		  amount: '92.12',
-		  date: new Date(2023, 10, 11),
-		},
-		{
-		  id: 'e12',
-		  title: 'Towel Paper',
-		  amount: '12.12',
-		  date: new Date(2023, 10, 11),
-		},
-		{
-		  id: 'e13',
-		  title: 'face pack ',
-		  amount: '100.12',
-		  date: new Date(2023, 10, 11),
-		},
-		{
-		  id: 'e14',
-		  title: 'toothpaste ',
-		  amount: '7.10',
-		  date: new Date(2023, 10, 16),
-		},
-	  ]
+	
 	return (
+		<>
 		<div
 			style={{
 				display: "flex",
 				justifyContent: "centre",
 				alignItems: "centre",
-				height: "100vh",
+				height: "50vh",
 			}}
 		>
+			
 			<Card className="matchcenter">
-				Upcoming
-				<Expenses items={expenses}/>
-			</Card>
-			<Card className="matchcenterLive">
-				Live
-				<Live/>
+				scorecard
+				
 			</Card>
 			
 			<Card className="matchcenter">
-				Recent
+				mystat
+			</Card>
+			<Card className="matchcenter">
+				player circle
 			</Card>
 			
 		</div>
+		<div style={{
+				display: "flex",
+				justifyContent: "centre",
+				alignItems: "centre",
+				height: "50vh",
+			}}>
+		
+		<Card className="matchcenter">
+			scorecard
+			
+		</Card>
+		
+		<Card className="matchcenter">
+			mystat
+		</Card>
+		<Card className="matchcenter">
+			selection
+		</Card>
+		
+	</div>
+	</>
 	);
 };
 

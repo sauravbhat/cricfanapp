@@ -25,6 +25,7 @@ import MatchCenter from "./components/pages/matchcenter";
 import Teams from "./components/pages/team";
 import Blogs from "./components/pages/blogs";
 import SignUp from "./components/pages/signup";
+import MatchListBar from './components/MatchListBar';
 
 function App({ signOut }) {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,7 +35,7 @@ function App({ signOut }) {
       fetch('https://cricfan.s3.amazonaws.com/league.json')
          .then((response) => response.json())
          .then((data) => {
-            console.log("data=====" + data);
+            //console.log("data=====" + data);
             setLeague(data);
             setIsLoading(false);
          })
@@ -53,6 +54,8 @@ function App({ signOut }) {
       <Router>
           <Navbar signOut={signOut}/>
           <Leaguebar leagueConfig={league}/>
+          <MatchListBar leagueConfig={league}/>
+          
           
           <Routes>
             <Route path="/" element={<MatchCenter />} />
