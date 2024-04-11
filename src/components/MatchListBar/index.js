@@ -9,6 +9,9 @@ import {
 } from "./MatchListElements";
 import "@aws-amplify/ui-react/styles.css";
 import TeamSchedules from "./TeamSchedules";
+import MatchCenter from "../pages/matchcenter";
+
+
 
 const MatchListBar = ({leagueConfig}) => {
 	console.log("configgg ========= ");
@@ -30,16 +33,13 @@ const MatchListBar = ({leagueConfig}) => {
 			if(Default == "true"){
 				return (
 					<>
-						<Nav>
-			
-							<Bars />
 							
 							
-							<div>	
+								
 								<TeamSchedules scd={scd} ccd={ccd}/>
-							</div>
+								
 							
-						</Nav>
+						
 					</>
 				);
 			}

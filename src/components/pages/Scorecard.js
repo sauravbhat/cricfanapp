@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const Teams = () => {
+const Scorecard = () => {
 	return (
 		<div
 			style={{
@@ -12,9 +12,9 @@ const Teams = () => {
 				height: "100vh",
 			}}
 		>
-			<h1>Team</h1>
+			<h1>Scorecard</h1>
 		</div>
 	);
 };
 
-export default Teams;
+export default Scorecard;

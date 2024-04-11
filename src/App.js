@@ -22,7 +22,6 @@ import Home from "./components/pages";
 import About from "./components/pages/about";
 import Events from "./components/pages/events";
 import MatchCenter from "./components/pages/matchcenter";
-import Teams from "./components/pages/team";
 import Blogs from "./components/pages/blogs";
 import SignUp from "./components/pages/signup";
 import MatchListBar from './components/MatchListBar';
@@ -57,22 +56,7 @@ function App({ signOut }) {
           <MatchListBar leagueConfig={league}/>
           
           
-          <Routes>
-            <Route path="/" element={<MatchCenter />} />
-              <Route path="/matchcenter" element={<MatchCenter />} />
-              <Route path="/about" element={<About />} />
-              <Route
-                  path="/events"
-                  element={<Events />}
-              />
-              <Route
-                  path="/annual"
-                  element={<MatchCenter />}
-              />
-              <Route path="/team" element={<Teams />} />
-              <Route path="/blogs" element={<Blogs />} />
-              
-          </Routes>
+         
       </Router> }
     </div>
     

@@ -8,26 +8,6 @@
     z-index: 100;
   }
 
-  .tbl{
-    border: 10px; 
-    border-color: black;
-  }
-
-  table,  td {
-    border: 0px solid black;
-    border-collapse: collapse;
-  }
-  .abtr {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-
-  th {
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color: rgb(102, 185, 107);
-  }
-
   .button-contianer {
     display: flex;
     justify-content: space-between;
@@ -36,9 +16,38 @@
   .img-container {
     display: flex;
     overflow: hidden;
-    width: 968px;
-    height:60px;
+    width: 900px;
+    max-height:500px;
     border: 5px solid #ffffff;
     border-radius: 1px;
   }
   
+  .rcorners2 {
+    display: block;
+    border-radius: 2px;
+    border: 2px solid #73AD21;
+    padding: 8px;
+    width: 200px;
+    height: 90px;
+    background-color: #73AD21;
+    font-size: 13px;
+    margin: 12px;
+    
+  }
+  
+  .rcorners2:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+
+/*  .rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  */

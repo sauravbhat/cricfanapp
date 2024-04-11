@@ -1,14 +1,22 @@
 import React,{ useRef, useState, useEffect } from "react";
 import Photos from "./images.json";
 import "./TeamPoint.css";
+import MatchCenter from "../pages/matchcenter"
+import {
+	Nav,
+	Bars,
+	NavBtn,
+	NavBtnLink,
+} from "./MatchListElements";
 
 const TeamSchedules = ({scd, ccd}) => {
+  const [eid, updateEid] = useState([])
   const elementRef = useRef(null);
   const [arrowDisable, setArrowDisable] = useState(true);
   const unsplashed = "https://source.unsplash.com/200x200/";
   const [team, setTeam] = useState([]);
 	const [isLoading, setIsLoading] = useState(true);
-  console.log("scd = " + scd + ", ccd = " + ccd);
+  //console.log("scd = " + scd + ", ccd = " + ccd);
   const handleHorizantalScroll = (element, speed, distance, step) => {
     let scrollAmount = 0;
     const slideTimer = setInterval(() => {
@@ -47,12 +55,27 @@ const TeamSchedules = ({scd, ccd}) => {
             console.log(err.message);
          });
    }, []);
+   let eid1=''
+   const sayHello = (eidparam) => {
+    //alert("Hello!" + eidparam);
+    eid1=eidparam;
+    updateEid(eid1);
+
+  };
 
   return (
     <>
+    <Nav>
+        
+        <Bars />
     {isLoading ? "loading" :
-
+      
+     
+      
       <div class="button-contianer">
+      
+        
+      
       <button
         onClick={() => {
           handleHorizantalScroll(elementRef.current, 25, 100, -10);
@@ -61,17 +84,24 @@ const TeamSchedules = ({scd, ccd}) => {
       >
         &lt;
       </button>
-      <div>
-
+     
+      <div class="img-container" ref={elementRef}>
       {team.map((item) => (
-						
-							
-            <div class="img-container">{item.teamName1} - {item.teamName2}</div>
-							
-						
+								
+            
+                <div class ="rcorners2" onClick={() => {
+                  sayHello(item.eid);
+                }}>
+                  {item.ErnInf} - {item.matchStatus}<br/>
+                  {item.teamName1} vs {item.teamName2}<br/>
+                  {item.estimatedstartDate} <br/>
+                   
+                </div>
+
 						
 					))}
-      </div>
+          </div>
+      
       
       <button
         onClick={() => {
@@ -81,8 +111,12 @@ const TeamSchedules = ({scd, ccd}) => {
         &gt;
       </button>
       </div>
-    }
+
       
+    }
+    
+    </Nav>
+      <MatchCenter eid={eid} updateEid={updateEid}/>
       
     </>
   );

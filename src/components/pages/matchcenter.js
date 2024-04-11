@@ -5,8 +5,9 @@ import Expenses from "./Expenses"
 import Card from "./Card"
 import './matchcenter.css';
 import Live from "./Live";
+import Scorecard from "./Scorecard";
 
-const MatchCenter = () => {
+const MatchCenter = ({eid,updateEid}) => {
 	
 	return (
 		<>
@@ -20,10 +21,11 @@ const MatchCenter = () => {
 		>
 			
 			<Card className="matchcenter">
-				scorecard
+				<Scorecard/>
+
 				
 			</Card>
-			
+			eid = {eid}
 			<Card className="matchcenter">
 				mystat
 			</Card>
@@ -32,26 +34,7 @@ const MatchCenter = () => {
 			</Card>
 			
 		</div>
-		<div style={{
-				display: "flex",
-				justifyContent: "centre",
-				alignItems: "centre",
-				height: "50vh",
-			}}>
 		
-		<Card className="matchcenter">
-			scorecard
-			
-		</Card>
-		
-		<Card className="matchcenter">
-			mystat
-		</Card>
-		<Card className="matchcenter">
-			selection
-		</Card>
-		
-	</div>
 	</>
 	);
 };
