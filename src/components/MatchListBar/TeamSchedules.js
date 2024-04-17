@@ -47,7 +47,7 @@ const TeamSchedules = ({scd, ccd}) => {
 		})})
          .then((response) => response.json())
          .then((data) => {
-            console.log( data);
+            //console.log( data);
             setTeam(data);
             setIsLoading(false);
          })

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #9eb25d;
+  --bg-color: rgba(238, 252, 206, 0.4);
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  height: 10px;
+  display: grid;
+  place-items: center;
+}
+
+tab_button {
+    font-size: 10px;
+
+  }
+
+.main__container {
+  border-radius: 1rem;
+  /*display: flex;*/
+  /*margin-top: 1rem;*/
+
+  flex-direction: column;
+  gap: 1rem;
+
+  align-items: center;
+  /*font-family: "Space Grotesk", sans-serif;
+  width: max-content;
+  padding: 8rem;*/
+  color: var(--text-color);
+  background: var(--bg-color);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.tab__header {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.tab__header li {
+  flex: 1;
+  cursor: pointer;
+  padding: 2rem;
+  border: 2px solid var(--text-color);
+  text-align: center;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(6, 6, 35);
+  
+}
+
+.tab__container {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  width: 100%;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: inset -3px -3px 3px rgba(0, 0, 0, 0.2),
+    inset 3px 3px 3px rgba(0, 0, 0, 0.2);
+  gap: 1rem;
+}
+
+.tab__content {
+  min-height: 1rem;
+  border: 1px solid var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: left;
+  gap: 1rem;
+  background: #fff;
+  border-radius: 1rem;
+  font-size: 12px;
+  color: rgb(6, 6, 35);
+}
+
+
+
+
+.active {
+  background: var(--text-color);
+
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 50px) {
+  .main__container {
+    gap: 2rem;
+    padding: 1rem;
+    width: 95%;
+    margin: 5rem auto;
+  }
+
+
+
+ 
+}

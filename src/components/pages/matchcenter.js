@@ -16,16 +16,16 @@ const MatchCenter = ({eid,updateEid}) => {
 				display: "flex",
 				justifyContent: "centre",
 				alignItems: "centre",
-				height: "50vh",
+				height: "60vh",
 			}}
 		>
 			
 			<Card className="matchcenter">
-				<Scorecard/>
+				<Scorecard eid = {eid}/>
 
 				
 			</Card>
-			eid = {eid}
+			
 			<Card className="matchcenter">
 				mystat
 			</Card>
