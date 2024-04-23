@@ -7,7 +7,7 @@
 }
 
 :root {
-  --text-color: #9eb25d;
+  --text-color: #766611;
   --bg-color: rgba(238, 252, 206, 0.4);
 }
 
@@ -42,16 +42,16 @@ tab_button {
 .batstyle {
     text-align: left;
 }
-.tab__header {
+.tab__header1 {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 0rem;
 }
 
-.tab__header li {
+.tab__header1 li {
   flex: 1;
   cursor: pointer;
-  padding: 2rem;
+  padding: 1rem;
   border: 2px solid var(--text-color);
   text-align: center;
   border-top-right-radius: 50%;
@@ -88,8 +88,27 @@ tab_button {
   color: rgb(6, 6, 35);
 }
 
+.dotgreen {
+    height: 25px;
+    width: 25px;
+    background-color: #1c8067;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+  }
 
-
+  .dotred {
+    height: 25px;
+    width: 25px;
+    background-color: #d31f1f;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+  }
 
 .active {
   background: var(--text-color);

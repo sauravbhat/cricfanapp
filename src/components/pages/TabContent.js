@@ -21,9 +21,9 @@ export default function TabContent({ scoreData, activeTab}) {
                          return (
                             
                                <tr>
-                                    <td>{bats.fullName}</td>
-                                    <td>{bats.ballfaced}</td>
+                                    <td class="batstyle"><b>{bats.fullName}</b><br/>{bats.fulltext}</td>
                                     <td>{bats.run}</td>
+                                    <td>{bats.ballfaced}</td>
                                     <td>{bats.four}</td>
                                     <td>{bats.six}</td>
                                     <td>{bats.srrate}</td>

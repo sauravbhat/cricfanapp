@@ -6,6 +6,7 @@ import Card from "./Card"
 import './matchcenter.css';
 import Live from "./Live";
 import Scorecard from "./Scorecard";
+import Userstat from "./Userstat";
 
 const MatchCenter = ({eid,updateEid}) => {
 	
@@ -27,7 +28,7 @@ const MatchCenter = ({eid,updateEid}) => {
 			</Card>
 			
 			<Card className="matchcenter">
-				mystat
+				<Userstat eid={eid}/>
 			</Card>
 			<Card className="matchcenter">
 				player circle
