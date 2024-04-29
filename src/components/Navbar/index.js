@@ -9,6 +9,7 @@ import {
 	NavMenu,
 	NavBtn,
 	NavBtnLink,
+	LoggedStyle,
 } from "./NavbarElements";
 import "@aws-amplify/ui-react/styles.css";
 
@@ -20,7 +21,7 @@ import {
 	View,
 	Card,
   } from "@aws-amplify/ui-react";
-const Navbar = ({signOut}) => {
+const Navbar = ({signOut, loggedUser}) => {
 	return (
 		<>
 			<Nav>
@@ -47,12 +48,14 @@ const Navbar = ({signOut}) => {
 					{/* Second Nav */}
 					{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 				</NavMenu>
+				
 				<NavBtn>
+				<LoggedStyle>Welcome {loggedUser.username} </LoggedStyle>
 					<NavBtnLink onClick={signOut}>
 						Sign Out 
 					</NavBtnLink>
 				</NavBtn>
-				   
+				
 				
 			</Nav>
 		</>

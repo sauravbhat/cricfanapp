@@ -26,10 +26,11 @@ import Blogs from "./components/pages/blogs";
 import SignUp from "./components/pages/signup";
 import MatchListBar from './components/MatchListBar';
 
-function App({ signOut }) {
+function App({ signOut,user }) {
   const [isLoading, setIsLoading] = useState(true);
   const [league, setLeague] = useState([]);
   //setIsLoading(true);
+  console.log(user);
     useEffect(() => {
       fetch('https://cricfan.s3.amazonaws.com/league.json')
          .then((response) => response.json())
@@ -51,9 +52,9 @@ function App({ signOut }) {
     <div>
       {isLoading ? "loading" :
       <Router>
-          <Navbar signOut={signOut}/>
-          <Leaguebar leagueConfig={league}/>
-          <MatchListBar leagueConfig={league}/>
+          <Navbar signOut={signOut}  loggedUser={user}/>
+          <Leaguebar leagueConfig={league} loggedUser={user}/>
+          <MatchListBar leagueConfig={league} loggedUser={user}/>
           
           
          

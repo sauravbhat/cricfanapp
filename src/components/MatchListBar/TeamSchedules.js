@@ -9,7 +9,7 @@ import {
 	NavBtnLink,
 } from "./MatchListElements";
 
-const TeamSchedules = ({scd, ccd}) => {
+const TeamSchedules = ({scd, ccd,loggedUser}) => {
   const [eid, updateEid] = useState([])
   const elementRef = useRef(null);
   const [arrowDisable, setArrowDisable] = useState(true);
@@ -116,7 +116,7 @@ const TeamSchedules = ({scd, ccd}) => {
     }
     
     </Nav>
-      <MatchCenter eid={eid} updateEid={updateEid}/>
+      <MatchCenter eid={eid} updateEid={updateEid} loggedUser={loggedUser}/>
       
     </>
   );

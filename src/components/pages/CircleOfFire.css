@@ -1,0 +1,137 @@
+
+
+
+
+
+
+tab_button {
+    font-size: 10px;
+
+  }
+
+.main__container {
+  border-radius: 1rem;
+  /*display: flex;*/
+  /*margin-top: 1rem;*/
+
+  flex-direction: column;
+  gap: 1rem;
+
+  align-items: center;
+  /*font-family: "Space Grotesk", sans-serif;
+  width: max-content;
+  padding: 8rem;*/
+  color: var(--text-color);
+  background: var(--bg-color);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.circleouter {
+    background-image: url(https://cricfan.s3.amazonaws.com/ipl/pitch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;        
+    height: 400px;
+    text-align: center;
+    display: inline-block;
+    border: 0px;
+    border-color: rgb(105, 85, 61);
+    border-style: solid;
+}
+
+.playertype {
+
+   width: 20%;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(187, 26, 26);
+    align-content: right;
+    border-style: solid;
+  }
+
+  .selPlayer {
+    height: 24%;
+    width: 100%;
+    background-image: url(https://cricfan.s3.amazonaws.com/ipl/keeper.png);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    border-style: solid;
+  }
+  
+  .selPlayerKeeper{
+    height: 24%;
+    width: 100%;
+    background-image: url(https://cricfan.s3.amazonaws.com/ipl/keeper.png);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    /*border-style: solid;*/
+  }
+
+  .selPlayerbat{
+    height: 24%;
+    width: 100%;
+    background-image: url(https://cricfan.s3.amazonaws.com/ipl/bat.png);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    /*border-style: solid;*/
+  }
+
+  .selPlayerar{
+    height: 24%;
+    width: 100%;
+    background-image: url(https://cricfan.s3.amazonaws.com/ipl/ar.png);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    /*border-style: solid;*/
+  }
+
+  .selPlayerball{
+    height: 24%;
+    width: 100%;
+    background-image: url(https://cricfan.s3.amazonaws.com/ipl/ball.png);
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    /*border-style: solid;*/
+  }
+
+  .coftd {
+    font-size: 15px;
+    align-content: center;
+    /*border-style: solid;*/
+    width:60px;
+    height:80px;
+    word-break: break-all;
+    display: inline-block; 
+    color: rgb(109-100, 63, 63);
+  }
+
+
+
+@media screen and (max-width: 50px) {
+  .main__container {
+    gap: 2rem;
+    padding: 1rem;
+    width: 95%;
+    margin: 5rem auto;
+  }
+
+
+
+ 
+}

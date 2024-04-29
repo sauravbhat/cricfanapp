@@ -1,147 +1,141 @@
 // pages/Scorecard.js
 
-import React,{  useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Userstat.css";
-import TabButtons from "./TabButtons";
-import TabContent from "./TabContent";
-import styled from "styled-components";
+
+import TabButtonsPlayerSelection from "./TabButtonsPlayerSelection";
+import TabContentPlayerSelection from "./TabContentPlayerSelection"
 
 
-export const PointsTable = styled.div`
-	border-radius: 4px;
-	background: #0097A7;
-	padding: 5px 22px;
-	color: #ffffff;
-	outline: none;
-	border: none;
-	transition: all 0.2s ease-in-out;
-	text-decoration: none;
-	/* Second Nav */
-	margin-left: 10px;
-	/*&:hover {
-		transition: all 0.2s ease-in-out;
-		background: #B2DFDB;
-		color: #808080;
-	}*/
-`;
+
+const Userstat = ({ eid }) => {
 
 
-const Userstat = ({eid}) => {
+    console.log(eid)
+    const [isLoading, setIsLoading] = useState(true);
+    const [scores, setScores] = useState([]);
+    useEffect(() => {
+        console.log("useeffect called")
+        setIsLoading(false);
+        /*if (eid != null) {
+            fetch('https://736z1k1omk.execute-api.us-east-1.amazonaws.com/dev/', {
+                method: 'POST',
+                origin: "*",
+                headers: {
 
-	
-	console.log(eid)
-	const [isLoading, setIsLoading] = useState(true);
-	const [scores, setScores] = useState([]);
-	useEffect(() => {
-		console.log(eid)
-		if(eid != null){
-		fetch('https://736z1k1omk.execute-api.us-east-1.amazonaws.com/dev/', {
-		  method: 'POST',
-		  origin: "*",
-		  headers: {  
-			
-			'Accept': 'application/json',
-			'Content-Type': 'application/json',
-		  },
-		  body: JSON.stringify({
-			eid: eid
-		  })})
-		   .then((response) => response.json())
-		   .then((data) => {
-			  console.log( data);
-			  if(data!=''){
-				setScores(data);
-				setIsLoading(false);
-			  }
-		   })
-		   .catch((err) => {
-			  console.log(err.message);
-		   });
-		}
-	 }, [eid]);
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    eid: eid
+                })
+            })
+                .then((response) => response.json())
+                .then((data) => {
+                    console.log(data);
+                    if (data != '') {
+                        setScores(data);
+                        setIsLoading(false);
+                    }
+                })
+                .catch((err) => {
+                    console.log(err.message);
+                });
+        }*/
+    }, [eid]);
 
-     function toggle() {
-		//setIsOpened(wasOpened => !wasOpened);
-	  }
+    // sorting logic start /////////////////////////////
+    const userDetails ={
+        "nickname":"cricmaniac",
+        "totalScore" : "2000",
+        "lastMatch":"150",
+        "globalRank":"100",
+        "privateLeagues":[
+            {"plname":"nova", "rank":"6","id":"2001"},
+            {"plname":"Bram", "rank":"1","id":"198098"}
+        ],
+        "totalPlayerSelected":10,
+        "totalPlayerAllowed":11,
+        "playerSelect":[
+            {"playtype":"Batsman","min":"1","max":"3","selection":"2",
+                "players":[
+                    { "fullName": "Shakib Al Hasan", "isOverSeas": "true","team": "CSK","cost": "345", "points": "678", "type": "Batsman","pid":"456" },
+                    { "fullName": "Virat Kohli", "isOverSeas": "false","team": "RCB","cost": "245", "points": "900", "type": "Batsman","pid":"457" },
+                    { "fullName": "Azmatullah Omarzai", "isOverSeas": "true","team": "MI","cost": "764", "points": "234", "type": "Batsman","pid":"458" }
+                ]
+            },
+            {"playtype":"WicketKeeper","min":"1","max":"2","selection":"0",
+            "players":[
+                { "fullName": "defs", "isOverSeas": "false","team": "CSK","cost": "345", "points": "678", "type": "Batsman","pid":"123" },
+                { "fullName": "bgts", "isOverSeas": "false","team": "RCB","cost": "245", "points": "900", "type": "Batsman","pid":"213" },
+                { "fullName": "kjus", "isOverSeas": "true","team": "MI","cost": "764", "points": "234", "type": "Batsman","pid":"321" }
+            ]},
+            {"playtype":"All Rounder","min":"1","max":"5","selection":"2",
+            "players":[
+                { "fullName": "cseg", "isOverSeas": "true","team": "CSK","cost": "345", "points": "678", "type": "Batsman","pid":"100" },
+                { "fullName": "ureg", "isOverSeas": "false","team": "RCB","cost": "245", "points": "900", "type": "Batsman","pid":"200" },
+                { "fullName": "mjkg", "isOverSeas": "true","team": "MI","cost": "764", "points": "234", "type": "Batsman","pid":"300" }
+            ]},
+            {"playtype":"Bowler","min":"2","max":"4","selection":"1",
+            "players":[
+                { "fullName": "bdfwlo", "isOverSeas": "false","team": "CSK","cost": "345", "points": "678", "type": "Batsman","pid":"111" },
+                { "fullName": "jjvflof", "isOverSeas": "true","team": "RCB","cost": "245", "points": "900", "type": "Batsman","pid":"222" },
+                { "fullName": "jfjfjk", "isOverSeas": "true","team": "MI","cost": "764", "points": "234", "type": "Batsman","pid":"333" }
+            ]}
 
-	const [activeTab, setActiveTab] = useState(0);	
-	return (
-		<div>
-		{isLoading ? "Click a match to see the score" :
-			<>
-            <div className="main__container">
-				<table width="100%" border="1">
-                    <tr><td>CricketManiac</td>
-                    <td>Total score: 2000<br/>
-                    Last match: 150</td>
-                    <td>Ranking:
-                        Global: 133<br/>
-                        NOVA : 6<br/>
-                        Bram:1 </td></tr>
-                </table>
-                
-				
-			</div>
-            <br/>
-            <div className="main__container">
-            
-            <div className="tab__header1">
-                
-                <li className="tab__button">
-                    Batsman <br/>(1-3)<br/> <span class="dotgreen">2</span>
-                </li>
-                <li className="tab__button">
-                    WicketKeeper <br/>(1-2) <br/><span class="dotred">0</span>
-                </li>
-                <li className="tab__button">
-                    All Rounder<br/> (3-5) <br/><span class="dotgreen">5</span>
-                </li>
-                <li className="tab__button">
-                    Bowler<br/> (2-4) <br/><span class="dotred">1</span>
-                </li>
-                
-            </div>
-            <div className="tab__container "> 
-                <div  className="tab__content">
-                <PointsTable onClick={toggle}>Select Teams</PointsTable>
-                <table border="1">
-                        <th>Name</th>
-                        <th>Cost</th>
-                        <th>Points</th>
-                        <th>&nbsp;</th>
-                  
-                        <tr>
-                            <td><b>aab  ccc</b></td>
-                            <td>90k</td>
-                            <td>345</td>
-                            <td><span class="dotgreen">+</span></td>   
-                        </tr> 
-                         
-                        <tr>
-                            <td><b>aab  ccc</b></td>
-                            <td>90k</td>
-                            <td>345</td>
-                            <td><span class="dotgreen">+</span></td>   
-                        </tr> 
-                        <tr>
-                            <td><b>aab  ccc</b></td>
-                            <td>90k</td>
-                            <td>345</td>
-                            <td><span class="dotgreen">+</span></td>   
-                        </tr>                        
-                     </table>
+        ],
+        
+    }
+   
+   
 
-                </div>
+    const [activeTab, setActiveTab] = useState(0);
+    return (
+        <div>
+            {isLoading ? "Loading..." :
+                <>
+                    <div className="main__container">
+                        <table width="100%" border="1">
+                            <tr><td>CricketManiac</td>
+                                <td>Total score: {userDetails.totalScore}<br />
+                                    Last match: {userDetails.lastMatch}</td>
+                                <td>Ranking:
+                                    Global: {userDetails.globalRank}<br />
+                                    {userDetails.privateLeagues.map(pl => (
+                                        <span>{pl.plname}:{pl.rank}
+                                        <br/></span>
+                                           
+                                           
+                                        
+                                    ))}
+                                  </td>
+                                  </tr> 
+                        </table>
 
-            </div>
-            
+
+                    </div>
+                    <br />
+                    <div className="main__container">
+
+
+                        <TabButtonsPlayerSelection  
+                            userDetails={userDetails} activeTab={activeTab}
+                            setActiveTab={setActiveTab}/>
+
+                        
+                        <TabContentPlayerSelection  
+                            userDetails={userDetails} activeTab={activeTab}/>
+                        
+
+
+                    </div>
+                </>
+            }
         </div>
-        </>
-		}
-	</div>
-	);
-	
+    );
+
 };
 
 export default Userstat;
+
 

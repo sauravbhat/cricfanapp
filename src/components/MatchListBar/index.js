@@ -13,7 +13,7 @@ import MatchCenter from "../pages/matchcenter";
 
 
 
-const MatchListBar = ({leagueConfig}) => {
+const MatchListBar = ({leagueConfig,loggedUser}) => {
 	console.log("configgg ========= ");
 	console.log(leagueConfig);
 
@@ -36,7 +36,7 @@ const MatchListBar = ({leagueConfig}) => {
 							
 							
 								
-								<TeamSchedules scd={scd} ccd={ccd}/>
+								<TeamSchedules scd={scd} ccd={ccd} loggedUser={loggedUser}/>
 								
 							
 						

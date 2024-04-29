@@ -18,6 +18,45 @@ body {
   place-items: center;
 }
 
+thead button {
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: green;
+    padding-block: 2px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+
+}
+
+thead button.descending::after {
+    content: '☝️';
+    display: inline-block;
+    margin-left: 1em;
+    color: white;
+    background-color: green;
+}
+
+thead button.ascending::after {
+    content: '👇';
+    display: inline-block;
+    margin-left: 1em;
+    color: white;
+    background-color: green;
+}
+
 tab_button {
     font-size: 10px;
 

@@ -7,8 +7,9 @@ import './matchcenter.css';
 import Live from "./Live";
 import Scorecard from "./Scorecard";
 import Userstat from "./Userstat";
+import CircleOfFire from "./CircleOfFire";
 
-const MatchCenter = ({eid,updateEid}) => {
+const MatchCenter = ({eid,updateEid,loggedUser}) => {
 	
 	return (
 		<>
@@ -31,7 +32,8 @@ const MatchCenter = ({eid,updateEid}) => {
 				<Userstat eid={eid}/>
 			</Card>
 			<Card className="matchcenter">
-				player circle
+				<CircleOfFire eid={eid}/>
+				
 			</Card>
 			
 		</div>

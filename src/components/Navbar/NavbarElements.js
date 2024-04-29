@@ -15,6 +15,14 @@ export const Nav = styled.nav`
 	/* justify-content: flex-start; */
 `;
 
+export const LoggedStyle = styled.div`
+	color: white;
+	display: flex;
+	align-items: center;
+
+
+`;
+
 export const NavLink = styled(Link)`
 	color: #ffffff;
 	display: flex;

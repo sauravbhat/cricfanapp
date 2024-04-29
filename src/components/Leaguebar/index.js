@@ -10,7 +10,7 @@ import {
 import "@aws-amplify/ui-react/styles.css";
 import Participatingteams from "./Participatingteams"
 
-const Navbar = ({leagueConfig}) => {
+const Navbar = ({leagueConfig, loggedUser}) => {
 	console.log("configgg ========= ");
 	console.log(leagueConfig);
 
