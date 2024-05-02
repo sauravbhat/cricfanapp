@@ -116,8 +116,9 @@ const TeamSchedules = ({scd, ccd,loggedUser}) => {
     }
     
     </Nav>
-      <MatchCenter eid={eid} updateEid={updateEid} loggedUser={loggedUser}/>
-      
+
+      <MatchCenter eid={eid} updateEid={updateEid} loggedUser={loggedUser} scd={scd} ccd={ccd} />
+  
     </>
   );
 };

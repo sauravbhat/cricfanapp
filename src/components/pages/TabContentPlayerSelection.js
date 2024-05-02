@@ -90,8 +90,8 @@ export default function TabContentPlayerSelection({ userDetails, activeTab }) {
                                 className={getClassNamesFor('fullName')} >
                                 FullName
                             </button></th>
-                            <th><button type="button" onClick={() => requestSort('team')}
-                                className={getClassNamesFor('team')} >
+                            <th><button type="button" onClick={() => requestSort('teamName')}
+                                className={getClassNamesFor('teamName')} >
                                 Team
                             </button></th>
                             <th><button type="button" onClick={() => requestSort('cost')}
@@ -100,7 +100,7 @@ export default function TabContentPlayerSelection({ userDetails, activeTab }) {
                             <th><button type="button" onClick={() => requestSort('points')}
                                 className={getClassNamesFor('points')} >
                                 Points</button></th>
-                            <th>5 Of 11</th>
+                            <th>{userDetails.totalPlayerSelected} Of {userDetails.totalPlayerAllowed}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -108,21 +108,21 @@ export default function TabContentPlayerSelection({ userDetails, activeTab }) {
                             <tr key={player.pid}>
                                 <td>{player.fullName}
                                     {
-                                        player.isOverSeas == 'true' &&
+                                        player.isOverSeas == 'True' &&
                                         <img src="https://cricfan.s3.amazonaws.com/ipl/airplane.png" width="25px" height="20px" />
 
                                     }
 
                                 </td>
-                                <td>{player.team}</td>
+                                <td>{player.teamName}</td>
                                 <td>{player.cost}</td>
                                 <td>{player.points}</td>
 
                                 <td>
-                                {userDetails.totalPlayerSelected < userDetails.totalPlayerAllowed &&
+                                {parseInt(userDetails.totalPlayerSelected) < parseInt(userDetails.totalPlayerAllowed) &&
                                     <span class="dotgreen">+</span>
                                 }
-                                {userDetails.totalPlayerSelected >= userDetails.totalPlayerAllowed &&
+                                {parseInt(userDetails.totalPlayerSelected) >= parseInt(userDetails.totalPlayerAllowed) &&
                                     <span class="dotred"></span>
                                 }
                                 </td>

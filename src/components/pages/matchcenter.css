@@ -15,13 +15,13 @@
   .matchcenterLive {
     padding: 1rem;
     background-color: #c7e8db;
-    margin: 8rem auto;
-    width: 30rem;
+    margin: 1rem auto;
+    width: 38rem;
     max-width: 75%;
-    border-radius: 12px;
+    border-radius: 1px;
     overflow: scroll;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 88px) {
       display: none;
     }
   }

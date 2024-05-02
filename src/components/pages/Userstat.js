@@ -8,17 +8,20 @@ import TabContentPlayerSelection from "./TabContentPlayerSelection"
 
 
 
-const Userstat = ({ eid }) => {
-
+const Userstat = ({ eid , scd,ccd, loggedUser}) => {
 
     console.log(eid)
+    console.log(scd)
+    console.log(ccd)
+    console.log(loggedUser)
     const [isLoading, setIsLoading] = useState(true);
-    const [scores, setScores] = useState([]);
+    const [userDetails, setuserDetails] = useState([]);
     useEffect(() => {
         console.log("useeffect called")
-        setIsLoading(false);
-        /*if (eid != null) {
-            fetch('https://736z1k1omk.execute-api.us-east-1.amazonaws.com/dev/', {
+        //setIsLoading(false);
+        if (ccd != null && scd !=null && loggedUser != null) {
+            console.log("all clear to call player details");
+            fetch('https://76yk46ut5c.execute-api.us-east-1.amazonaws.com/dev/', {
                 method: 'POST',
                 origin: "*",
                 headers: {
@@ -27,25 +30,29 @@ const Userstat = ({ eid }) => {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    eid: eid
+                    eid: eid,
+                    ccd: ccd,
+                    fanid:loggedUser.userId,
+                    scd:scd
                 })
             })
                 .then((response) => response.json())
                 .then((data) => {
                     console.log(data);
                     if (data != '') {
-                        setScores(data);
+                        console.log("userdetails data received");
+                        setuserDetails(data);
                         setIsLoading(false);
                     }
                 })
                 .catch((err) => {
                     console.log(err.message);
                 });
-        }*/
-    }, [eid]);
+        }
+    }, [eid,ccd,scd,loggedUser]);
 
     // sorting logic start /////////////////////////////
-    const userDetails ={
+   /* const userDetails ={
         "nickname":"cricmaniac",
         "totalScore" : "2000",
         "lastMatch":"150",
@@ -85,7 +92,7 @@ const Userstat = ({ eid }) => {
 
         ],
         
-    }
+    }*/
    
    
 
@@ -104,9 +111,7 @@ const Userstat = ({ eid }) => {
                                     {userDetails.privateLeagues.map(pl => (
                                         <span>{pl.plname}:{pl.rank}
                                         <br/></span>
-                                           
-                                           
-                                        
+                                            
                                     ))}
                                   </td>
                                   </tr> 
