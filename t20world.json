@@ -1,0 +1,2357 @@
+{
+  "Stages": [
+    {
+      "Sid": "16580",
+      "Snm": "First Stage",
+      "Scd": "first-stage",
+      "Cid": "556",
+      "Cnm": "ICC Men's T20 World Cup",
+      "CnmT": "icc-mens-t20-world-cup",
+      "Csnm": "ICC Men's T20 World Cup",
+      "Ccd": "icc-mens-t20-world-cup",
+      "Scu": 0,
+      "Sds": "First Stage",
+      "Chi": 0,
+      "Shi": 0,
+      "Events": [
+        {
+          "Eid": "1144181",
+          "Pids": {
+            "8": "1144181",
+            "12": "SBTE_1_30616719",
+            "112": "SBTE_2_1020822600"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "United States",
+              "ID": "86153",
+              "Abr": "UNI",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Canada",
+              "ID": "86199",
+              "Abr": "CAN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 1",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240601173000,
+          "Ese": 20240601173000,
+          "Exd": 1,
+          "EO": 524295,
+          "EOX": 524295,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144180",
+          "Pids": {
+            "8": "1144180",
+            "12": "SBTE_1_30616718",
+            "112": "SBTE_2_1020822610"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "West Indies",
+              "ID": "86109",
+              "Abr": "WIN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Papua New Guinea",
+              "ID": "86152",
+              "Abr": "PAP",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 2",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240602073000,
+          "Ese": 20240602073000,
+          "Exd": 1,
+          "EO": 524295,
+          "EOX": 524295,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144186",
+          "Pids": {
+            "8": "1144186",
+            "12": "SBTE_1_30616720",
+            "112": "SBTE_2_1020822620"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Oman",
+              "ID": "86151",
+              "Abr": "OMA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 3",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240602173000,
+          "Ese": 20240602173000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144183",
+          "Pids": {
+            "8": "1144183",
+            "12": "SBTE_1_30616722",
+            "112": "SBTE_2_1020822637"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "Sri Lanka",
+              "ID": "86129",
+              "Abr": "SRI",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "South Africa",
+              "ID": "86128",
+              "Abr": "SOU",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 4",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240603073000,
+          "Ese": 20240603073000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144182",
+          "Pids": {
+            "8": "1144182",
+            "12": "SBTE_1_30616721",
+            "112": "SBTE_2_1020822616"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "Afghanistan",
+              "ID": "86113",
+              "Abr": "AFG",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Uganda",
+              "ID": "223442",
+              "Abr": "UGA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 5",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240603173000,
+          "Ese": 20240603173000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144185",
+          "Pids": {
+            "8": "1144185",
+            "12": "SBTE_1_30616725",
+            "112": "SBTE_2_1020822621"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "England",
+              "ID": "86110",
+              "Abr": "ENG",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Scotland",
+              "ID": "86131",
+              "Abr": "SCO",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 6",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240604073000,
+          "Ese": 20240604073000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144178",
+          "Pids": {
+            "8": "1144178",
+            "12": "SBTE_1_30616724",
+            "112": "SBTE_2_1020822633"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "Netherlands",
+              "ID": "86142",
+              "Abr": "NET",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Nepal",
+              "ID": "86192",
+              "Abr": "NEP",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 7",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240604083000,
+          "Ese": 20240604083000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144175",
+          "Pids": {
+            "8": "1144175",
+            "12": "SBTE_1_30616723",
+            "112": "SBTE_2_1020822601"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "India",
+              "ID": "86102",
+              "Abr": "IND",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Ireland",
+              "ID": "86114",
+              "Abr": "IRE",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 8",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240605073000,
+          "Ese": 20240605073000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144173",
+          "Pids": {
+            "8": "1144173",
+            "112": "SBTE_2_1020822611"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "Papua New Guinea",
+              "ID": "86152",
+              "Abr": "PAP",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Uganda",
+              "ID": "223442",
+              "Abr": "UGA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 9",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240605163000,
+          "Ese": 20240605163000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144179",
+          "Pids": {
+            "8": "1144179",
+            "112": "SBTE_2_1020822622"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "Australia",
+              "ID": "86103",
+              "Abr": "AUS",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Oman",
+              "ID": "86151",
+              "Abr": "OMA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 10",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240605173000,
+          "Ese": 20240605173000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144176",
+          "Pids": {
+            "8": "1144176",
+            "112": "SBTE_2_1020822602"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "United States",
+              "ID": "86153",
+              "Abr": "UNI",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Pakistan",
+              "ID": "86130",
+              "Abr": "PAK",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 11",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240606083000,
+          "Ese": 20240606083000,
+          "Exd": 1,
+          "EO": 524295,
+          "EOX": 524295,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144177",
+          "Pids": {
+            "8": "1144177",
+            "112": "SBTE_2_1020822623"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Scotland",
+              "ID": "86131",
+              "Abr": "SCO",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 12",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240606120000,
+          "Ese": 20240606120000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1144198",
+          "Pids": {
+            "8": "1144198",
+            "112": "SBTE_2_1020822603"
+          },
+          "Sids": {
+            "12": "SBTC3_37785",
+            "112": "SBTC3_37785"
+          },
+          "T1": [
+            {
+              "Nm": "Canada",
+              "ID": "86199",
+              "Abr": "CAN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Ireland",
+              "ID": "86114",
+              "Abr": "IRE",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Match 13",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240607073000,
+          "Ese": 20240607073000,
+          "Exd": 1,
+          "EO": 526343,
+          "EOX": 526343,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        }
+      ]
+    },
+    {
+      "Sid": "17957",
+      "Snm": "Warm-Up Matches",
+      "Scd": "warm-up-matches",
+      "Cid": "556",
+      "Cnm": "ICC Men's T20 World Cup",
+      "CnmT": "icc-mens-t20-world-cup",
+      "Csnm": "ICC Men's T20 World Cup",
+      "Ccd": "icc-mens-t20-world-cup",
+      "Scu": 1,
+      "Sds": "Warm-Up Matches",
+      "Chi": 0,
+      "Shi": 0,
+      "Events": [
+        {
+          "Eid": "1231229",
+          "Pids": {
+            "8": "1231229",
+            "112": "SBTE_2_1020846078"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 183,
+          "Tr2C1": 120,
+          "Tr1CW1": 7,
+          "Tr2CW1": 10,
+          "Tr1CO1": 20,
+          "Tr2CO1": 19.3,
+          "T1": [
+            {
+              "Nm": "Canada",
+              "ID": "86199",
+              "Abr": "CAN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Nepal",
+              "ID": "86192",
+              "Abr": "NEP",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 1",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Canada win by 63 runs",
+          "TPa": 2,
+          "TCho": 2,
+          "Esd": 20240527083000,
+          "Ese": 20240527083000,
+          "Exd": 1,
+          "LuUT": 20240527095005,
+          "EO": 6293605,
+          "EOX": 6293605,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231228",
+          "Pids": {
+            "8": "1231228",
+            "112": "SBTE_2_1020846079"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 141,
+          "Tr2C1": 137,
+          "Tr1CW1": 7,
+          "Tr2CW1": 9,
+          "Tr1CO1": 19.1,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Oman",
+              "ID": "86151",
+              "Abr": "OMA",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Papua New Guinea",
+              "ID": "86152",
+              "Abr": "PAP",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 2",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Oman win by 3 wickets",
+          "TPa": 1,
+          "TCho": 2,
+          "Esd": 20240527120000,
+          "Ese": 20240527120000,
+          "Exd": 1,
+          "LuUT": 20240527141831,
+          "EO": 6293605,
+          "EOX": 6293605,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231230",
+          "Pids": {
+            "8": "1231230",
+            "12": "SBTE_1_30637155",
+            "112": "SBTE_2_1020846083"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 135,
+          "Tr2C1": 134,
+          "Tr1CW1": 5,
+          "Tr2CW1": 8,
+          "Tr1CO1": 18.5,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Uganda",
+              "ID": "223442",
+              "Abr": "UGA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 3",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Namibia win by 5 wickets",
+          "TPa": 1,
+          "TCho": 2,
+          "Esd": 20240527160000,
+          "Ese": 20240527160000,
+          "Exd": 1,
+          "LuUT": 20240527161931,
+          "EO": 6293605,
+          "EOX": 6293605,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231227",
+          "Pids": {
+            "8": "1231227",
+            "12": "SBTE_1_30637158",
+            "112": "SBTE_2_1020846084"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Sri Lanka",
+              "ID": "86129",
+              "Abr": "SRI",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Netherlands",
+              "ID": "86142",
+              "Abr": "NET",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 4",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240528073000,
+          "Ese": 20240528073000,
+          "Exd": 1,
+          "EO": 2055,
+          "EOX": 2055,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231219",
+          "Pids": {
+            "8": "1231219",
+            "12": "SBTE_1_30637160",
+            "112": "SBTE_2_1020846090"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Bangladesh",
+              "ID": "86123",
+              "Abr": "BAN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "United States",
+              "ID": "86153",
+              "Abr": "UNI",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "Aband.",
+          "Esid": 17,
+          "EpsL": "Abandoned",
+          "Epr": 8,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 5",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Match abandoned without a ball bowled",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240528083000,
+          "Ese": 20240528083000,
+          "Exd": 1,
+          "EO": 5,
+          "EOX": 5,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231222",
+          "Pids": {
+            "8": "1231222"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Australia",
+              "ID": "86103",
+              "Abr": "AUS",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 6",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240528160000,
+          "Ese": 20240528160000,
+          "Exd": 1,
+          "EO": 2055,
+          "EOX": 2055,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231223",
+          "Pids": {
+            "8": "1231223"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Afghanistan",
+              "ID": "86113",
+              "Abr": "AFG",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Oman",
+              "ID": "86151",
+              "Abr": "OMA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 7",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240529100000,
+          "Ese": 20240529100000,
+          "Exd": 1,
+          "EO": 2055,
+          "EOX": 2055,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231221",
+          "Pids": {
+            "8": "1231221"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Scotland",
+              "ID": "86131",
+              "Abr": "SCO",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Uganda",
+              "ID": "223442",
+              "Abr": "UGA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 8",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240530073000,
+          "Ese": 20240530073000,
+          "Exd": 1,
+          "EO": 2055,
+          "EOX": 2055,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231220",
+          "Pids": {
+            "8": "1231220"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Nepal",
+              "ID": "86192",
+              "Abr": "NEP",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "United States",
+              "ID": "86153",
+              "Abr": "UNI",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 9",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240530083000,
+          "Ese": 20240530083000,
+          "Exd": 1,
+          "EO": 7,
+          "EOX": 7,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231224",
+          "Pids": {
+            "8": "1231224"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Papua New Guinea",
+              "ID": "86152",
+              "Abr": "PAP",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 10",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240530120000,
+          "Ese": 20240530120000,
+          "Exd": 1,
+          "EO": 2055,
+          "EOX": 2055,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231225",
+          "Pids": {
+            "8": "1231225"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Netherlands",
+              "ID": "86142",
+              "Abr": "NET",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Canada",
+              "ID": "86199",
+              "Abr": "CAN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 11",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240530130000,
+          "Ese": 20240530130000,
+          "Exd": 1,
+          "EO": 2055,
+          "EOX": 2055,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231226",
+          "Pids": {
+            "8": "1231226"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "West Indies",
+              "ID": "86109",
+              "Abr": "WIN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Australia",
+              "ID": "86103",
+              "Abr": "AUS",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 12",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240530160000,
+          "Ese": 20240530160000,
+          "Exd": 1,
+          "EO": 7,
+          "EOX": 7,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231231",
+          "Pids": {
+            "8": "1231231"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Ireland",
+              "ID": "86114",
+              "Abr": "IRE",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Sri Lanka",
+              "ID": "86129",
+              "Abr": "SRI",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 13",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240531073000,
+          "Ese": 20240531073000,
+          "Exd": 1,
+          "EO": 2055,
+          "EOX": 2055,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1231233",
+          "Pids": {
+            "8": "1231233"
+          },
+          "Sids": {
+            "12": "SBTC3_213413",
+            "112": "SBTC3_213413"
+          },
+          "T1": [
+            {
+              "Nm": "Scotland",
+              "ID": "86131",
+              "Abr": "SCO",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Afghanistan",
+              "ID": "86113",
+              "Abr": "AFG",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "NS",
+          "Esid": 1,
+          "EpsL": "Not started",
+          "Epr": 0,
+          "Ecov": 0,
+          "ErnInf": "Warm-Up Match 14",
+          "Et": 100,
+          "EtTx": "Non Official Twenty20",
+          "ECo": "Teams will be announced at the toss",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20240531073000,
+          "Ese": 20240531073000,
+          "Exd": 1,
+          "EO": 2055,
+          "EOX": 2055,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        }
+      ]
+    },
+    {
+      "Sid": "16120",
+      "Snm": "African Qualification",
+      "Scd": "african-qualification",
+      "Cid": "556",
+      "Cnm": "ICC Men's T20 World Cup",
+      "CnmT": "icc-mens-t20-world-cup",
+      "Csnm": "ICC Men's T20 World Cup",
+      "Ccd": "icc-mens-t20-world-cup",
+      "Scu": 1,
+      "Sds": "African Qualification",
+      "Chi": 0,
+      "Shi": 0,
+      "Events": [
+        {
+          "Eid": "1115205",
+          "Pids": {
+            "8": "1115205"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 182,
+          "Tr2C1": 132,
+          "Tr1CW1": 3,
+          "Tr2CW1": 10,
+          "Tr1CO1": 20,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Kenya",
+              "ID": "86201",
+              "Abr": "KEN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Tanzania",
+              "ID": "278993",
+              "Abr": "TAN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 8",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Kenya win by 50 runs",
+          "TPa": 2,
+          "TCho": 2,
+          "Esd": 20231125003000,
+          "Exd": 1,
+          "LuUT": 20231125001617,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115214",
+          "Pids": {
+            "8": "1115214"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 207,
+          "Tr2C1": 46,
+          "Tr1CW1": 3,
+          "Tr2CW1": 5,
+          "Tr1CO1": 20,
+          "Tr2CO1": 10,
+          "T1": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Rwanda",
+              "ID": "278992",
+              "Abr": "RWA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 9",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Namibia win by 68 runs (DLS Method)",
+          "TPa": 2,
+          "TCho": 2,
+          "Esd": 20231125053000,
+          "Ese": 20231125053000,
+          "Exd": 1,
+          "LuUT": 20231125050207,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115197",
+          "Pids": {
+            "8": "1115197"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 136,
+          "Tr2C1": 138,
+          "Tr1CW1": 7,
+          "Tr2CW1": 5,
+          "Tr1CO1": 20,
+          "Tr2CO1": 19.1,
+          "T1": [
+            {
+              "Nm": "Zimbabwe",
+              "ID": "86126",
+              "Abr": "ZIM",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Uganda",
+              "ID": "223442",
+              "Abr": "UGA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 10",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Uganda win by 5 wickets",
+          "TPa": 2,
+          "TCho": 2,
+          "Esd": 20231126003000,
+          "Ese": 20231126003000,
+          "Exd": 1,
+          "LuUT": 20231126001957,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115210",
+          "Pids": {
+            "8": "1115210"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 139,
+          "Tr2C1": 140,
+          "Tr1CW1": 7,
+          "Tr2CW1": 7,
+          "Tr1CO1": 20,
+          "Tr2CO1": 18.4,
+          "T1": [
+            {
+              "Nm": "Tanzania",
+              "ID": "278993",
+              "Abr": "TAN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Nigeria",
+              "ID": "86202",
+              "Abr": "NIG",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 11",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Nigeria win by 3 wickets",
+          "TPa": 1,
+          "TCho": 1,
+          "Esd": 20231126053000,
+          "Ese": 20231126053000,
+          "Exd": 1,
+          "LuUT": 20231126052022,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115207",
+          "Pids": {
+            "8": "1115207"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 106,
+          "Tr2C1": 104,
+          "Tr1CW1": 4,
+          "Tr2CW1": 6,
+          "Tr1CO1": 15.2,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Kenya",
+              "ID": "86201",
+              "Abr": "KEN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 12",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Namibia win by 6 wickets",
+          "TPa": 1,
+          "TCho": 2,
+          "Esd": 20231127003000,
+          "Exd": 1,
+          "LuUT": 20231127001007,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115201",
+          "Pids": {
+            "8": "1115201"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 71,
+          "Tr2C1": 215,
+          "Tr1CW1": 10,
+          "Tr2CW1": 4,
+          "Tr1CO1": 18.4,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Rwanda",
+              "ID": "278992",
+              "Abr": "RWA",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Zimbabwe",
+              "ID": "86126",
+              "Abr": "ZIM",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 13",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Zimbabwe win by 144 runs",
+          "TPa": 1,
+          "TCho": 2,
+          "Esd": 20231127003000,
+          "Exd": 1,
+          "LuUT": 20231127000437,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115216",
+          "Pids": {
+            "8": "1115216"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 100,
+          "Tr2C1": 99,
+          "Tr1CW1": 1,
+          "Tr2CW1": 10,
+          "Tr1CO1": 17.3,
+          "Tr2CO1": 19.1,
+          "T1": [
+            {
+              "Nm": "Uganda",
+              "ID": "223442",
+              "Abr": "UGA",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Nigeria",
+              "ID": "86202",
+              "Abr": "NIG",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 14",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Uganda win by 9 wickets",
+          "TPa": 2,
+          "TCho": 1,
+          "Esd": 20231127053000,
+          "Exd": 1,
+          "LuUT": 20231127050207,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115208",
+          "Pids": {
+            "8": "1115208"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 99,
+          "Tr2C1": 157,
+          "Tr1CW1": 6,
+          "Tr2CW1": 6,
+          "Tr1CO1": 20,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Tanzania",
+              "ID": "278993",
+              "Abr": "TAN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 15",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Namibia win by 58 runs",
+          "TPa": 1,
+          "TCho": 2,
+          "Esd": 20231128003000,
+          "Exd": 1,
+          "LuUT": 20231128000647,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115198",
+          "Pids": {
+            "8": "1115198"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 110,
+          "Tr2C1": 111,
+          "Tr1CW1": 8,
+          "Tr2CW1": 4,
+          "Tr1CO1": 20,
+          "Tr2CO1": 14,
+          "T1": [
+            {
+              "Nm": "Nigeria",
+              "ID": "86202",
+              "Abr": "NIG",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Zimbabwe",
+              "ID": "86126",
+              "Abr": "ZIM",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 16",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Zimbabwe win by 6 wickets",
+          "TPa": 1,
+          "TCho": 1,
+          "Esd": 20231129003000,
+          "Ese": 20231129003000,
+          "Exd": 1,
+          "LuUT": 20231129000207,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115211",
+          "Pids": {
+            "8": "1115211"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 102,
+          "Tr2C1": 153,
+          "Tr1CW1": 7,
+          "Tr2CW1": 8,
+          "Tr1CO1": 20,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Rwanda",
+              "ID": "278992",
+              "Abr": "RWA",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Tanzania",
+              "ID": "278993",
+              "Abr": "TAN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 17",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Tanzania win by 51 runs",
+          "TPa": 1,
+          "TCho": 2,
+          "Esd": 20231129003000,
+          "Ese": 20231129003000,
+          "Exd": 1,
+          "LuUT": 20231129001342,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115217",
+          "Pids": {
+            "8": "1115217"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 162,
+          "Tr2C1": 129,
+          "Tr1CW1": 5,
+          "Tr2CW1": 10,
+          "Tr1CO1": 20,
+          "Tr2CO1": 19,
+          "T1": [
+            {
+              "Nm": "Uganda",
+              "ID": "223442",
+              "Abr": "UGA",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Kenya",
+              "ID": "86201",
+              "Abr": "KEN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 18",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Uganda win by 33 runs",
+          "TPa": 1,
+          "TCho": 1,
+          "Esd": 20231129053000,
+          "Ese": 20231129053000,
+          "Exd": 1,
+          "LuUT": 20231129050242,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115209",
+          "Pids": {
+            "8": "1115209"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 66,
+          "Tr2C1": 65,
+          "Tr1CW1": 1,
+          "Tr2CW1": 10,
+          "Tr1CO1": 8.1,
+          "Tr2CO1": 18.5,
+          "T1": [
+            {
+              "Nm": "Uganda",
+              "ID": "223442",
+              "Abr": "UGA",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Rwanda",
+              "ID": "278992",
+              "Abr": "RWA",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 20",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Uganda win by 9 wickets",
+          "TPa": 1,
+          "TCho": 2,
+          "Esd": 20231130003000,
+          "Exd": 1,
+          "LuUT": 20231130001342,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115212",
+          "Pids": {
+            "8": "1115212"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 217,
+          "Tr2C1": 107,
+          "Tr1CW1": 4,
+          "Tr2CW1": 8,
+          "Tr1CO1": 20,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Zimbabwe",
+              "ID": "86126",
+              "Abr": "ZIM",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Kenya",
+              "ID": "86201",
+              "Abr": "KEN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 19",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Zimbabwe win by 110 runs",
+          "TPa": 2,
+          "TCho": 2,
+          "Esd": 20231130003000,
+          "Ese": 20231130003000,
+          "Exd": 1,
+          "LuUT": 20231130000652,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1115213",
+          "Pids": {
+            "8": "1115213"
+          },
+          "Sids": {
+            "12": "SBTC3_198482"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 93,
+          "Tr2C1": 96,
+          "Tr1CW1": 10,
+          "Tr2CW1": 2,
+          "Tr1CO1": 19.2,
+          "Tr2CO1": 13.2,
+          "T1": [
+            {
+              "Nm": "Nigeria",
+              "ID": "86202",
+              "Abr": "NIG",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Namibia",
+              "ID": "86165",
+              "Abr": "NAM",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 21",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Namibia win by 8 wickets",
+          "TPa": 1,
+          "TCho": 1,
+          "Esd": 20231130053000,
+          "Exd": 1,
+          "LuUT": 20231130050517,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        }
+      ]
+    },
+    {
+      "Sid": "15811",
+      "Snm": "American Qualification",
+      "Scd": "american-qualification",
+      "Cid": "556",
+      "Cnm": "ICC Men's T20 World Cup",
+      "CnmT": "icc-mens-t20-world-cup",
+      "Csnm": "ICC Men's T20 World Cup",
+      "Ccd": "icc-mens-t20-world-cup",
+      "Scu": 1,
+      "Sds": "American Qualification",
+      "Chi": 0,
+      "Shi": 0,
+      "Events": [
+        {
+          "Eid": "1093986",
+          "Pids": {
+            "8": "1093986"
+          },
+          "Sids": {
+            "12": "SBTC3_23810"
+          },
+          "T1": [
+            {
+              "Nm": "Canada",
+              "ID": "86199",
+              "Abr": "CAN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Panama",
+              "ID": "273738",
+              "Abr": "PAN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "Aband.",
+          "Esid": 17,
+          "EpsL": "Abandoned",
+          "Epr": 8,
+          "Ecov": 0,
+          "ErnInf": "Match 10",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Match abandoned without a ball bowled",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20231006103000,
+          "Ese": 20231006103000,
+          "Exd": 1,
+          "EO": 524293,
+          "EOX": 524293,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1093981",
+          "Pids": {
+            "8": "1093981"
+          },
+          "Sids": {
+            "12": "SBTC3_23810"
+          },
+          "T1": [
+            {
+              "Nm": "Cayman Islands",
+              "ID": "273739",
+              "Abr": "CAY",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Panama",
+              "ID": "273738",
+              "Abr": "PAN",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "Aband.",
+          "Esid": 17,
+          "EpsL": "Abandoned",
+          "Epr": 8,
+          "Ecov": 0,
+          "ErnInf": "Match 11",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Match abandoned without a ball bowled",
+          "TPa": 0,
+          "TCho": 0,
+          "Esd": 20231007060000,
+          "Ese": 20231007060000,
+          "Exd": 1,
+          "EO": 524293,
+          "EOX": 524293,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        },
+        {
+          "Eid": "1093982",
+          "Pids": {
+            "8": "1093982"
+          },
+          "Sids": {
+            "12": "SBTC3_23810"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 132,
+          "Tr2C1": 93,
+          "Tr1CW1": 4,
+          "Tr2CW1": 10,
+          "Tr1CO1": 18,
+          "Tr2CO1": 16.5,
+          "T1": [
+            {
+              "Nm": "Canada",
+              "ID": "86199",
+              "Abr": "CAN",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Bermuda",
+              "ID": "86196",
+              "Abr": "BER",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 12",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Canada win by 39 runs",
+          "TPa": 1,
+          "TCho": 1,
+          "Esd": 20231007103000,
+          "Exd": 1,
+          "LuUT": 20231007140045,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        }
+      ]
+    },
+    {
+      "Sid": "15945",
+      "Snm": "Asian Qualification",
+      "Scd": "asian-qualification",
+      "Cid": "556",
+      "Cnm": "ICC Men's T20 World Cup",
+      "CnmT": "icc-mens-t20-world-cup",
+      "Csnm": "ICC Men's T20 World Cup",
+      "Ccd": "icc-mens-t20-world-cup",
+      "Scu": 1,
+      "Sds": "Asian Qualification",
+      "Chi": 0,
+      "Shi": 0,
+      "Events": [
+        {
+          "Eid": "1112039",
+          "Pids": {
+            "8": "1112039"
+          },
+          "Sids": {
+            "12": "SBTC3_43690"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 184,
+          "Tr2C1": 184,
+          "Tr1C2": 21,
+          "Tr2C2": 10,
+          "Tr1CW1": 9,
+          "Tr2CW1": 6,
+          "Tr1CW2": 0,
+          "Tr2CW2": 1,
+          "Tr1CO1": 20,
+          "Tr2CO1": 20,
+          "Tr1CO2": 1,
+          "Tr2CO2": 1,
+          "T1": [
+            {
+              "Nm": "Oman",
+              "ID": "86151",
+              "Abr": "OMA",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Nepal",
+              "ID": "86192",
+              "Abr": "NEP",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Final",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Match Tied (Oman win the one-over eliminator)",
+          "TPa": 2,
+          "TCho": 1,
+          "Esd": 20231104221500,
+          "Ese": 20231104221500,
+          "Exd": 1,
+          "LuUT": 20231104215207,
+          "EO": 6815845,
+          "EOX": 6815845,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        }
+      ]
+    },
+    {
+      "Sid": "13852",
+      "Snm": "European Qualification",
+      "Scd": "european-qualification",
+      "Cid": "556",
+      "Cnm": "ICC Men's T20 World Cup",
+      "CnmT": "icc-mens-t20-world-cup",
+      "Csnm": "ICC Men's T20 World Cup",
+      "Ccd": "icc-mens-t20-world-cup",
+      "Scu": 0,
+      "Sds": "European Qualification",
+      "Chi": 0,
+      "Shi": 0,
+      "Events": [
+        {
+          "Eid": "940783",
+          "Pids": {
+            "8": "940783"
+          },
+          "Sids": {
+            "12": "SBTC3_23810"
+          },
+          "Tr1": "0",
+          "Tr2": "0",
+          "Tr1C1": 213,
+          "Tr2C1": 205,
+          "Tr1CW1": 6,
+          "Tr2CW1": 9,
+          "Tr1CO1": 20,
+          "Tr2CO1": 20,
+          "T1": [
+            {
+              "Nm": "Scotland",
+              "ID": "86131",
+              "Abr": "SCO",
+              "HasVideo": false
+            }
+          ],
+          "T2": [
+            {
+              "Nm": "Ireland",
+              "ID": "86114",
+              "Abr": "IRE",
+              "HasVideo": false
+            }
+          ],
+          "Eps": "FT",
+          "Esid": 6,
+          "EpsL": "Finished",
+          "Epr": 2,
+          "Ecov": 0,
+          "ErnInf": "Match 21",
+          "Et": 100,
+          "EtTx": "Twenty20",
+          "ECo": "Scotland win by 8 runs",
+          "TPa": 2,
+          "TCho": 2,
+          "Esd": 20230728073000,
+          "Exd": 1,
+          "LuUT": 20230728070704,
+          "EO": 6816357,
+          "EOX": 6816357,
+          "Ehid": 0,
+          "Spid": 73,
+          "Pid": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,32 +1,1328 @@
-[
-    "beach",
-    "space",
-    "office",
-    "house",
-    "shops",
-    "hat",
-    "park",
-    "food",
-    "club",
-    "dance",
-    "sun",
-    "stars",
-    "friends",
-    "bank",
-    "laptop",
-    "book",
-    "table",
-    "mountain",
-    "school",
-    "watch",
-    "bag",
-    "family",
-    "shops",
-    "forrest",
-    "city",
-    "bus",
-    "clock",
-    "train",
-    "bottle"
+{
+  "playerroster": [
+    {
+      "playtype": "Batsman",
+      "min": "1",
+      "max": "3",
+      "players": [
+        {
+          "fullName": "Axar Patel",
+          "isOverSeas": "False",
+          "pid": "6626",
+          "nationality": "India",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Jake Fraser-McGurk",
+          "isOverSeas": "",
+          "pid": "12311",
+          "nationality": "",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Ricky Bhui",
+          "isOverSeas": "False",
+          "pid": "7105",
+          "nationality": "India",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Rishabh Pant",
+          "isOverSeas": "False",
+          "pid": "8229",
+          "nationality": "India",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Lizaad Williams",
+          "isOverSeas": "",
+          "pid": "5658",
+          "nationality": "",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Rasikh Salam",
+          "isOverSeas": "",
+          "pid": "12490",
+          "nationality": "",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Kumar Kushagra",
+          "isOverSeas": "",
+          "pid": "13116",
+          "nationality": "",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Tristan Stubbs",
+          "isOverSeas": "True",
+          "pid": "14343",
+          "nationality": "South Africa",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Mukesh Kumar",
+          "isOverSeas": "",
+          "pid": "13814",
+          "nationality": "",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Abishek Porel",
+          "isOverSeas": "False",
+          "pid": "15551",
+          "nationality": "India",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "David Warner",
+          "isOverSeas": "True",
+          "pid": "4275",
+          "nationality": "Australia",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "",
+          "pid": "11021",
+          "nationality": "",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Mitchell Marsh",
+          "isOverSeas": "True",
+          "pid": "4601",
+          "nationality": "Australia",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Lalit Yadav",
+          "isOverSeas": "",
+          "pid": "13279",
+          "nationality": "",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Anrich Nortje",
+          "isOverSeas": "",
+          "pid": "11455",
+          "nationality": "",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Sumit Kumar",
+          "isOverSeas": "False",
+          "pid": "14065",
+          "nationality": "India",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Shreyas Iyer",
+          "isOverSeas": "False",
+          "pid": "7110",
+          "nationality": "India",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Andre Russell",
+          "isOverSeas": "True",
+          "pid": "4913",
+          "nationality": "West Indies",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "",
+          "pid": "14004",
+          "nationality": "",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Rinku Singh",
+          "isOverSeas": "False",
+          "pid": "11102",
+          "nationality": "India",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Nitish Rana",
+          "isOverSeas": "False",
+          "pid": "7686",
+          "nationality": "India",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Angkrish Raghuvanshi",
+          "isOverSeas": "",
+          "pid": "15292",
+          "nationality": "",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Ramandeep Singh",
+          "isOverSeas": "False",
+          "pid": "13671",
+          "nationality": "India",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Phil Salt",
+          "isOverSeas": "True",
+          "pid": "8012",
+          "nationality": "England",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Venkatesh Iyer",
+          "isOverSeas": "False",
+          "pid": "13642",
+          "nationality": "India",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Anukul Roy",
+          "isOverSeas": "",
+          "pid": "11038",
+          "nationality": "",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Dushmantha Chameera",
+          "isOverSeas": "",
+          "pid": "5708",
+          "nationality": "",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Sameer Rizvi",
+          "isOverSeas": "False",
+          "pid": "12699",
+          "nationality": "India",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Ravindra Jadeja",
+          "isOverSeas": "False",
+          "pid": "3856",
+          "nationality": "India",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Shivam Dube",
+          "isOverSeas": "False",
+          "pid": "12293",
+          "nationality": "India",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Shardul Thakur",
+          "isOverSeas": "",
+          "pid": "5919",
+          "nationality": "",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Ruturaj Gaikwad",
+          "isOverSeas": "False",
+          "pid": "12302",
+          "nationality": "India",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Ajinkya Rahane",
+          "isOverSeas": "False",
+          "pid": "3845",
+          "nationality": "India",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Lokesh Rahul",
+          "isOverSeas": "False",
+          "pid": "6698",
+          "nationality": "India",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "False",
+          "pid": "7106",
+          "nationality": "India",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Krunal Pandya",
+          "isOverSeas": "False",
+          "pid": "9686",
+          "nationality": "India",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Devdutt Padikkal",
+          "isOverSeas": "False",
+          "pid": "12292",
+          "nationality": "India",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Amit Mishra",
+          "isOverSeas": "",
+          "pid": "3108",
+          "nationality": "",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Matt Henry",
+          "isOverSeas": "",
+          "pid": "6582",
+          "nationality": "",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Arshad Khan",
+          "isOverSeas": "",
+          "pid": "14295",
+          "nationality": "",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Ayush Badoni",
+          "isOverSeas": "False",
+          "pid": "13780",
+          "nationality": "India",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Nicholas Pooran",
+          "isOverSeas": "True",
+          "pid": "6763",
+          "nationality": "West Indies",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Hardik Pandya",
+          "isOverSeas": "False",
+          "pid": "7780",
+          "nationality": "India",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Dewald Brevis",
+          "isOverSeas": "True",
+          "pid": "14524",
+          "nationality": "South Africa",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Shreyas Gopal",
+          "isOverSeas": "",
+          "pid": "7338",
+          "nationality": "",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Nehal Wadhera",
+          "isOverSeas": "",
+          "pid": "13678",
+          "nationality": "",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Akash Madhwal",
+          "isOverSeas": "False",
+          "pid": "13849",
+          "nationality": "India",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Mohammad Nabi",
+          "isOverSeas": "",
+          "pid": "4307",
+          "nationality": "",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Gerald Coetzee",
+          "isOverSeas": "True",
+          "pid": "11439",
+          "nationality": "South Africa",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Naman Dhir",
+          "isOverSeas": "False",
+          "pid": "13675",
+          "nationality": "India",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Romario Shepherd",
+          "isOverSeas": "",
+          "pid": "11908",
+          "nationality": "",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Piyush Chawla",
+          "isOverSeas": "False",
+          "pid": "3351",
+          "nationality": "India",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Tim David",
+          "isOverSeas": "True",
+          "pid": "11463",
+          "nationality": "Singapore",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "",
+          "pid": "15458",
+          "nationality": "",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Luke Wood",
+          "isOverSeas": "",
+          "pid": "5816",
+          "nationality": "",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Tilak Varma",
+          "isOverSeas": "False",
+          "pid": "12691",
+          "nationality": "India",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Suryakumar Yadav",
+          "isOverSeas": "",
+          "pid": "5089",
+          "nationality": "",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Rohit Sharma",
+          "isOverSeas": "False",
+          "pid": "3516",
+          "nationality": "India",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Lockie Ferguson",
+          "isOverSeas": "",
+          "pid": "6992",
+          "nationality": "",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Glenn Maxwell",
+          "isOverSeas": "True",
+          "pid": "4894",
+          "nationality": "Australia",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Karn Sharma",
+          "isOverSeas": "False",
+          "pid": "4412",
+          "nationality": "India",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Rajat Patidar",
+          "isOverSeas": "False",
+          "pid": "12334",
+          "nationality": "India",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Anuj Rawat",
+          "isOverSeas": "False",
+          "pid": "13280",
+          "nationality": "India",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Faf du Plessis",
+          "isOverSeas": "True",
+          "pid": "4063",
+          "nationality": "South Africa",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Mayank Dagar",
+          "isOverSeas": "False",
+          "pid": "8233",
+          "nationality": "India",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Mahipal Lomror",
+          "isOverSeas": "",
+          "pid": "8238",
+          "nationality": "",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Will Jacks",
+          "isOverSeas": "",
+          "pid": "10865",
+          "nationality": "",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Cameron Green",
+          "isOverSeas": "True",
+          "pid": "10749",
+          "nationality": "Australia",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Virat Kohli",
+          "isOverSeas": "False",
+          "pid": "3788",
+          "nationality": "India",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Suyash Prabhudessai",
+          "isOverSeas": "",
+          "pid": "13791",
+          "nationality": "",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Azmatullah Omarzai",
+          "isOverSeas": "False",
+          "pid": "11606",
+          "nationality": "Afganistan",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Sandeep Warrier",
+          "isOverSeas": "",
+          "pid": "6620",
+          "nationality": "",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Shahrukh Khan",
+          "isOverSeas": "",
+          "pid": "13720",
+          "nationality": "",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Spencer Johnson",
+          "isOverSeas": "",
+          "pid": "11318",
+          "nationality": "",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Shubman Gill",
+          "isOverSeas": "False",
+          "pid": "11023",
+          "nationality": "India",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Abhinav Manohar",
+          "isOverSeas": "",
+          "pid": "15035",
+          "nationality": "",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Sai Kishore",
+          "isOverSeas": "",
+          "pid": "13278",
+          "nationality": "",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Darshan Nalkande",
+          "isOverSeas": "False",
+          "pid": "11315",
+          "nationality": "India",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "David Miller",
+          "isOverSeas": "False",
+          "pid": "4804",
+          "nationality": "South Africa",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "False",
+          "pid": "14572",
+          "nationality": "India",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Abdul Samad",
+          "isOverSeas": "False",
+          "pid": "13284",
+          "nationality": "India",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Travis Head",
+          "isOverSeas": "True",
+          "pid": "5366",
+          "nationality": "Australia",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Aiden Markram",
+          "isOverSeas": "True",
+          "pid": "7165",
+          "nationality": "South Africa",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "False",
+          "pid": "8240",
+          "nationality": "India",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Heinrich Klaasen",
+          "isOverSeas": "True",
+          "pid": "7620",
+          "nationality": "South Africa",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "T Natarajan",
+          "isOverSeas": "",
+          "pid": "11096",
+          "nationality": "",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Nitish Kumar Reddy",
+          "isOverSeas": "",
+          "pid": "13733",
+          "nationality": "",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Mayank Agarwal",
+          "isOverSeas": "False",
+          "pid": "5063",
+          "nationality": "India",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Abhishek Sharma",
+          "isOverSeas": "False",
+          "pid": "11022",
+          "nationality": "India",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Dhruv Jurel",
+          "isOverSeas": "False",
+          "pid": "12694",
+          "nationality": "India",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Sandeep Sharma",
+          "isOverSeas": "",
+          "pid": "5402",
+          "nationality": "",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Ravichandran Ashwin",
+          "isOverSeas": "False",
+          "pid": "3795",
+          "nationality": "India",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Shimron Hetmyer",
+          "isOverSeas": "True",
+          "pid": "7195",
+          "nationality": "West Indies",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "True",
+          "pid": "4456",
+          "nationality": "England",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Riyan Parag",
+          "isOverSeas": "False",
+          "pid": "11313",
+          "nationality": "India",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "",
+          "pid": "13646",
+          "nationality": "",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Rovman Powell",
+          "isOverSeas": "",
+          "pid": "9795",
+          "nationality": "",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Shubham Badriprasad Dubey",
+          "isOverSeas": "False",
+          "pid": "15136",
+          "nationality": "India",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Yashasvi Jaiswal",
+          "isOverSeas": "False",
+          "pid": "12690",
+          "nationality": "India",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Prabhsimran Singh",
+          "isOverSeas": "False",
+          "pid": "12296",
+          "nationality": "India",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Jonny Bairstow",
+          "isOverSeas": "True",
+          "pid": "4249",
+          "nationality": "England",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Rilee Rossouw",
+          "isOverSeas": "",
+          "pid": "4546",
+          "nationality": "",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Sam Curran",
+          "isOverSeas": "True",
+          "pid": "7888",
+          "nationality": "England",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Shikhar Dhawan",
+          "isOverSeas": "False",
+          "pid": "3811",
+          "nationality": "India",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Liam Livingstone",
+          "isOverSeas": "True",
+          "pid": "6724",
+          "nationality": "England",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Ashutosh Sharma",
+          "isOverSeas": "",
+          "pid": "17938",
+          "nationality": "",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "",
+          "isOverSeas": "",
+          "pid": "4636",
+          "nationality": "",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Shashank Singh",
+          "isOverSeas": "False",
+          "pid": "9714",
+          "nationality": "India",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        }
+      ]
+    },
+    {
+      "playtype": "Bowler",
+      "min": "2",
+      "max": "4",
+      "players": [
+        {
+          "fullName": "Khaleel Ahmed",
+          "isOverSeas": "True",
+          "pid": "8239",
+          "nationality": "South Africa",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Kuldeep Yadav",
+          "isOverSeas": "False",
+          "pid": "5399",
+          "nationality": "India",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Ishant Sharma",
+          "isOverSeas": "False",
+          "pid": "3515",
+          "nationality": "India",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "Harshit Rana",
+          "isOverSeas": "False",
+          "pid": "15728",
+          "nationality": "India",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Mitchell Starc",
+          "isOverSeas": "True",
+          "pid": "4910",
+          "nationality": "Australia",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Suyash Sharma",
+          "isOverSeas": "False",
+          "pid": "16896",
+          "nationality": "India",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Sunil Narine",
+          "isOverSeas": "True",
+          "pid": "4956",
+          "nationality": "West Indies",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Varun Chakravarthy",
+          "isOverSeas": "False",
+          "pid": "12294",
+          "nationality": "India",
+          "teamName": "Kolkata Knight Riders",
+          "abbr": "KOL"
+        },
+        {
+          "fullName": "Tushar Deshpande",
+          "isOverSeas": "False",
+          "pid": "9711",
+          "nationality": "India",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Maheesh Theekshana",
+          "isOverSeas": "True",
+          "pid": "14211",
+          "nationality": "Sri Lanka",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Matheesha Pathirana",
+          "isOverSeas": "True",
+          "pid": "13340",
+          "nationality": "Sri Lanka",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Mustafizur Rahman",
+          "isOverSeas": "True",
+          "pid": "6752",
+          "nationality": "Bangladesh",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Deepak Chahar",
+          "isOverSeas": "False",
+          "pid": "5059",
+          "nationality": "India",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Naveen-ul-Haq",
+          "isOverSeas": "True",
+          "pid": "8504",
+          "nationality": "Afganistan",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Yash Thakur",
+          "isOverSeas": "False",
+          "pid": "13937",
+          "nationality": "India",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Ravi Bishnoi",
+          "isOverSeas": "False",
+          "pid": "12696",
+          "nationality": "India",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Mohsin Khan",
+          "isOverSeas": "False",
+          "pid": "11836",
+          "nationality": "India",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Jasprit Bumrah",
+          "isOverSeas": "False",
+          "pid": "6684",
+          "nationality": "India",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Kwena Maphaka",
+          "isOverSeas": "True",
+          "pid": "15171",
+          "nationality": "South Africa",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Alzarri Joseph",
+          "isOverSeas": "True",
+          "pid": "7223",
+          "nationality": "West Indies",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Mohammed Siraj",
+          "isOverSeas": "False",
+          "pid": "11100",
+          "nationality": "India",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Yash Dayal",
+          "isOverSeas": "False",
+          "pid": "14451",
+          "nationality": "India",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Noor Ahmad",
+          "isOverSeas": "True",
+          "pid": "13157",
+          "nationality": "Afganistan",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Rashid Khan",
+          "isOverSeas": "True",
+          "pid": "8141",
+          "nationality": "Afganistan",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Umesh Yadav",
+          "isOverSeas": "False",
+          "pid": "4395",
+          "nationality": "India",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Mohit Sharma",
+          "isOverSeas": "False",
+          "pid": "5929",
+          "nationality": "India",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Rahul Tewatia",
+          "isOverSeas": "False",
+          "pid": "7339",
+          "nationality": "India",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Shahbaz Ahmed",
+          "isOverSeas": "False",
+          "pid": "13277",
+          "nationality": "India",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Bhuvneshwar Kumar",
+          "isOverSeas": "False",
+          "pid": "4384",
+          "nationality": "India",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Pat Cummins",
+          "isOverSeas": "True",
+          "pid": "5164",
+          "nationality": "Australia",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Jaydev Unadkat",
+          "isOverSeas": "False",
+          "pid": "4768",
+          "nationality": "India",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Mayank Markande",
+          "isOverSeas": "False",
+          "pid": "11075",
+          "nationality": "India",
+          "teamName": "Sunrisers Hyderabad",
+          "abbr": "SUN"
+        },
+        {
+          "fullName": "Yuzvendra Chahal",
+          "isOverSeas": "False",
+          "pid": "5085",
+          "nationality": "India",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Nandre Burger",
+          "isOverSeas": "True",
+          "pid": "12273",
+          "nationality": "South Africa",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Trent Boult",
+          "isOverSeas": "True",
+          "pid": "4281",
+          "nationality": "New Zealand",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Avesh Khan",
+          "isOverSeas": "False",
+          "pid": "7103",
+          "nationality": "India",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Harpreet Brar",
+          "isOverSeas": "False",
+          "pid": "12301",
+          "nationality": "India",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Kagiso Rabada",
+          "isOverSeas": "True",
+          "pid": "6580",
+          "nationality": "South Africa",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Arshdeep Singh",
+          "isOverSeas": "False",
+          "pid": "11524",
+          "nationality": "India",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Harshal Patel",
+          "isOverSeas": "False",
+          "pid": "5343",
+          "nationality": "India",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        },
+        {
+          "fullName": "Rahul Chahar",
+          "isOverSeas": "False",
+          "pid": "11025",
+          "nationality": "India",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        }
+      ]
+    },
+    {
+      "playtype": "AllRounder",
+      "min": "1",
+      "max": "3",
+      "players": [
+        {
+          "fullName": "Daryl Mitchell",
+          "isOverSeas": "True",
+          "pid": "6881",
+          "nationality": "New Zealand",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Rachin Ravindra",
+          "isOverSeas": "True",
+          "pid": "8321",
+          "nationality": "New Zealand",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Moeen Ali",
+          "isOverSeas": "True",
+          "pid": "3992",
+          "nationality": "England",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Marcus Stoinis",
+          "isOverSeas": "True",
+          "pid": "5957",
+          "nationality": "Australia",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Vijay Shankar",
+          "isOverSeas": "False",
+          "pid": "6621",
+          "nationality": "India",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        }
+      ]
+    },
+    {
+      "playtype": "WicketKeeper",
+      "min": "1",
+      "max": "2",
+      "players": [
+        {
+          "fullName": "Shai Hope",
+          "isOverSeas": "True",
+          "pid": "7800",
+          "nationality": "West Indies",
+          "teamName": "Delhi Capitals",
+          "abbr": "DEL"
+        },
+        {
+          "fullName": "MS Dhoni",
+          "isOverSeas": "False",
+          "pid": "3243",
+          "nationality": "India",
+          "teamName": "Chennai Super Kings",
+          "abbr": "CHE"
+        },
+        {
+          "fullName": "Quinton de Kock",
+          "isOverSeas": "True",
+          "pid": "5648",
+          "nationality": "South Africa",
+          "teamName": "Lucknow Super Giants",
+          "abbr": "LUC"
+        },
+        {
+          "fullName": "Ishan Kishan",
+          "isOverSeas": "False",
+          "pid": "8234",
+          "nationality": "India",
+          "teamName": "Mumbai Indians",
+          "abbr": "MUM"
+        },
+        {
+          "fullName": "Dinesh Karthik",
+          "isOverSeas": "False",
+          "pid": "3210",
+          "nationality": "India",
+          "teamName": "Royal Challengers Bangalore",
+          "abbr": "RCB"
+        },
+        {
+          "fullName": "Wriddhiman Saha",
+          "isOverSeas": "False",
+          "pid": "3835",
+          "nationality": "India",
+          "teamName": "Gujarat Titans",
+          "abbr": "GUJ"
+        },
+        {
+          "fullName": "Sanju Samson",
+          "isOverSeas": "False",
+          "pid": "5335",
+          "nationality": "India",
+          "teamName": "Rajasthan Royals",
+          "abbr": "RAJ"
+        },
+        {
+          "fullName": "Jitesh Sharma",
+          "isOverSeas": "False",
+          "pid": "9688",
+          "nationality": "India",
+          "teamName": "Punjab Kings",
+          "abbr": "KIN"
+        }
+      ]
+    }
   ]
-  
+}

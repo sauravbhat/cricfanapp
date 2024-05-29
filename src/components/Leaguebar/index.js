@@ -33,15 +33,11 @@ const Navbar = ({leagueConfig, loggedUser}) => {
 						<Nav>
 			
 							<Bars />
-							<NavBtn>
-								<NavBtnLink >
-									{Display} 
-								</NavBtnLink>
-							</NavBtn>
+							
 							
 							<div>
 							
-							<Participatingteams scd={scd} ccd={ccd}/>
+							<Participatingteams scd={scd} ccd={ccd} leagueName={Display}/>
 							</div>
 							
 							

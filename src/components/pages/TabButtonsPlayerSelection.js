@@ -11,12 +11,12 @@ export default function TabButtonsPlayerSelection({ userDetails, activeTab, setA
             onClick={() => setActiveTab(index)}>
                  {item.playtype} <br />({item.min} -{item.max})<br /> 
                  {
-                    item.selection > item.max || item.selection <item.min &&
+                    parseInt(item.selection) > parseInt(item.max) || parseInt(item.selection) <parseInt(item.min) &&
                     <span className="dotred">{item.selection}</span>
                     
                  }
                  {
-                    item.selection <= item.max && item.selection >= item.min &&
+                    parseInt(item.selection) <= parseInt(item.max) && parseInt(item.selection) >= parseInt(item.min) &&
                     <span className="dotgreen">{item.selection}</span>
                     
                  }

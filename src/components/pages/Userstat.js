@@ -5,17 +5,22 @@ import "./Userstat.css";
 
 import TabButtonsPlayerSelection from "./TabButtonsPlayerSelection";
 import TabContentPlayerSelection from "./TabContentPlayerSelection"
+import CircleOfFire from "./CircleOfFire";
 
 
 
-const Userstat = ({ eid , scd,ccd, loggedUser}) => {
+const Userstat = ({ eid , scd,ccd, loggedUser, selPlayerDetails, setselPlayerDetails}) => {
 
     console.log(eid)
     console.log(scd)
     console.log(ccd)
     console.log(loggedUser)
+    if(eid!=null || eid ==[]){
+        eid='';
+    }
     const [isLoading, setIsLoading] = useState(true);
     const [userDetails, setuserDetails] = useState([]);
+
     useEffect(() => {
         console.log("useeffect called")
         //setIsLoading(false);
@@ -43,6 +48,8 @@ const Userstat = ({ eid , scd,ccd, loggedUser}) => {
                         console.log("userdetails data received");
                         setuserDetails(data);
                         setIsLoading(false);
+                        selPlayerDetails=data.selectedPlayer;
+                        console.log(selPlayerDetails);
                     }
                 })
                 .catch((err) => {
@@ -101,7 +108,8 @@ const Userstat = ({ eid , scd,ccd, loggedUser}) => {
         <div>
             {isLoading ? "Loading..." :
                 <>
-                    <div className="main__container">
+                <div >
+                    <div className="main__container1">
                         <table width="100%" border="1">
                             <tr><td>CricketManiac</td>
                                 <td>Total score: {userDetails.totalScore}<br />
@@ -119,8 +127,21 @@ const Userstat = ({ eid , scd,ccd, loggedUser}) => {
 
 
                     </div>
-                    <br />
-                    <div className="main__container">
+                   
+                    <div className="main__container1">
+                    <table width="100%" border="1">
+                            <tr><td>Transfers Remainign:100 </td>
+                                <td>winner Predictor: <br />
+                                    CSK some buton MI </td>
+                                </tr>
+                                <tr><td>nitro: </td>
+                                <td>2x highest score </td>
+                                <td>  something else </td>
+                                </tr>    
+                        </table>
+                    </div>
+                    <br/><br/><br/>
+                    <div className="main__container1">
 
 
                         <TabButtonsPlayerSelection  
@@ -129,10 +150,17 @@ const Userstat = ({ eid , scd,ccd, loggedUser}) => {
 
                         
                         <TabContentPlayerSelection  
-                            userDetails={userDetails} activeTab={activeTab}/>
+                            userDetails={userDetails} activeTab={activeTab} setIsLoading={setIsLoading}/>
                         
 
 
+                    </div>
+                    <br/>
+
+                    <CircleOfFire userDetails={userDetails}/>
+                        
+
+                    
                     </div>
                 </>
             }

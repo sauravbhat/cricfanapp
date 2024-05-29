@@ -1,17 +1,16 @@
 // pages/annual.js
 
-import React from "react";
+import React,  { useState, useEffect } from "react";
 import Expenses from "./Expenses"
 import Card from "./Card"
 import './matchcenter.css';
 import Live from "./Live";
 import Scorecard from "./Scorecard";
 import Userstat from "./Userstat";
-import CircleOfFire from "./CircleOfFire";
 
 const MatchCenter = ({eid,updateEid,loggedUser, scd, ccd}) => {
 	
-	
+	const [selPlayerDetails, setselPlayerDetails] = useState([]);
 	return (
 		<>
 		<div
@@ -30,11 +29,11 @@ const MatchCenter = ({eid,updateEid,loggedUser, scd, ccd}) => {
 			</Card>
 			
 			<Card className="matchcenterLive">
-				<Userstat eid={eid} scd={scd} ccd={ccd} loggedUser={loggedUser}/>
+				<Userstat eid={eid} scd={scd} ccd={ccd} loggedUser={loggedUser} 
+				selPlayerDetails={selPlayerDetails} setselPlayerDetails={setselPlayerDetails}
+				/>
 			</Card>
-			<Card className="matchcenter">
-				<CircleOfFire eid={eid}/>
-			</Card>
+			
 			
 		</div>
 		

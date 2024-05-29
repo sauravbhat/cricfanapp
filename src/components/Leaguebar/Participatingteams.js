@@ -6,7 +6,7 @@ import {
 } from "./LeaguebarElements";
 import "./TeamPoint.css"
 
-const Participatingteams = ({scd, ccd}) => {
+const Participatingteams = ({scd, ccd,leagueName}) => {
 
 	const [team, setTeam] = useState([]);
 	const [isLoading, setIsLoading] = useState(true);
@@ -54,18 +54,21 @@ const Participatingteams = ({scd, ccd}) => {
 
 	return (
 		<div>
+			<table class="headerBanner"><tr><td >
+									<span >{leagueName} </span>
+								</td></tr></table>
 			<table border="0"><tr>
 		{isLoading ? "loading" :
 		//create the images
 				
 		team.map((item) => (
-			<td><img src={item.teamLogo} width="70" height="60" alt={item.TEAM_NAME}/></td>
+			<td><img src={item.teamLogo} width="35" height="35" />&nbsp;</td>
 				
 		  ))
 	}
 			
 				<td>
-					<PointsTable onClick={toggle}>Points Table</PointsTable>
+					<PointsTable onClick={toggle}>Points</PointsTable>
 				</td>
 			</tr>
 			</table>

@@ -25,11 +25,12 @@ export const PointsTable = styled.div`
 	}
 `;
 
-export default function TabContentPlayerSelection({ userDetails, activeTab }) {
+export default function TabContentPlayerSelection({ userDetails, activeTab ,setIsLoading}) {
 
 
     const scores = userDetails.playerSelect[activeTab];
-    //console.log(scores);
+
+    console.log(scores);
 
     // sorting logic end //////////////////////////////////////////  
 
@@ -39,8 +40,10 @@ export default function TabContentPlayerSelection({ userDetails, activeTab }) {
         const sortedItems = React.useMemo(() => {
             //console.log(sortConfig)
             //console.log(items)
-            let sortableItems = [...items];
+
+            let sortableItems = null;
             if (sortConfig !== null) {
+                sortableItems = [...items];
                 sortableItems.sort((a, b) => {
                     if (a[sortConfig.key] < b[sortConfig.key]) {
                         return sortConfig.direction === 'ascending' ? -1 : 1;
@@ -67,7 +70,7 @@ export default function TabContentPlayerSelection({ userDetails, activeTab }) {
         return { items: sortedItems, requestSort, sortConfig };
     }
 
-    const { items, requestSort, sortConfig } = useSortableData(scores.players);
+    const { items, requestSort, sortConfig } = useSortableData(scores!=null?scores.players:null);
     const getClassNamesFor = (name) => {
         if (!sortConfig) {
             return;
@@ -75,9 +78,17 @@ export default function TabContentPlayerSelection({ userDetails, activeTab }) {
         return sortConfig.key === name ? sortConfig.direction : undefined;
     };
 
-    function toggle() {
-        //setIsOpened(wasOpened => !wasOpened);
-    }
+    
+    const addPlayer = (pid) => {
+        console.log(pid);
+        //send the selected player to server
+
+        //refresh userstat
+        
+        //setIsLoading(true);
+     };
+
+    
 
     return (
         <div className="tab__container ">
@@ -104,7 +115,7 @@ export default function TabContentPlayerSelection({ userDetails, activeTab }) {
                         </tr>
                     </thead>
                     <tbody>
-                        {items.map(player => (
+                        {items && items.map(player => (
                             <tr key={player.pid}>
                                 <td>{player.fullName}
                                     {
@@ -120,7 +131,9 @@ export default function TabContentPlayerSelection({ userDetails, activeTab }) {
 
                                 <td>
                                 {parseInt(userDetails.totalPlayerSelected) < parseInt(userDetails.totalPlayerAllowed) &&
-                                    <span class="dotgreen">+</span>
+                                    <span class="dotgreen" onClick={() => {
+                                        addPlayer(player.pid);
+                                      }}>+</span>
                                 }
                                 {parseInt(userDetails.totalPlayerSelected) >= parseInt(userDetails.totalPlayerAllowed) &&
                                     <span class="dotred"></span>

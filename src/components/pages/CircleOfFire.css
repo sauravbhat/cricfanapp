@@ -2,7 +2,11 @@
 
 
 
-
+:root {
+  --text-color: #766611;
+  --bg-color: rgba(238, 252, 206, 0.4);
+  --fire-color:rgb(85, 118, 19);
+}
 
 tab_button {
     font-size: 10px;
@@ -68,10 +72,10 @@ tab_button {
     background-image: url(https://cricfan.s3.amazonaws.com/ipl/keeper.png);
     font-weight: bold;
     font-size: 15px;
-    color: white;
+    color: var(--fire-color);
     background-repeat: no-repeat;
     background-size: 10%;
-    /*border-style: solid;*/
+    border-style: solid;
   }
 
   .selPlayerbat{
@@ -80,10 +84,10 @@ tab_button {
     background-image: url(https://cricfan.s3.amazonaws.com/ipl/bat.png);
     font-weight: bold;
     font-size: 15px;
-    color: white;
+    color: var(--fire-color);
     background-repeat: no-repeat;
     background-size: 10%;
-    /*border-style: solid;*/
+    border-style: solid;
   }
 
   .selPlayerar{
@@ -92,10 +96,10 @@ tab_button {
     background-image: url(https://cricfan.s3.amazonaws.com/ipl/ar.png);
     font-weight: bold;
     font-size: 15px;
-    color: white;
+    color: var(--fire-color);
     background-repeat: no-repeat;
     background-size: 10%;
-    /*border-style: solid;*/
+    border-style: solid;
   }
 
   .selPlayerball{
@@ -104,10 +108,10 @@ tab_button {
     background-image: url(https://cricfan.s3.amazonaws.com/ipl/ball.png);
     font-weight: bold;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: var(--fire-color);
     background-repeat: no-repeat;
     background-size: 10%;
-    /*border-style: solid;*/
+    border-style: solid;
   }
 
   .coftd {
@@ -118,7 +122,7 @@ tab_button {
     height:80px;
     word-break: break-all;
     display: inline-block; 
-    color: rgb(109-100, 63, 63);
+    color: rgb(236, 219, 219);
   }
 
 

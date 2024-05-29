@@ -27,3 +27,12 @@
     border-collapse: collapse;
     background-color: rgb(102, 185, 107);
   }
+
+  .headerBanner {
+    padding: 1px;
+    text-align: center;
+    background-image: linear-gradient(to right, red, rgb(107, 124, 194));
+    color: white;
+    font-size: 20px;
+    width:100%;
+  }
